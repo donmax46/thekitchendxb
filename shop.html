@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8"/>
+
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1"/>
+
+  <title>Shop — THE KITCHEN DXB</title>
+
+  <meta name="description"
+        content="THE KITCHEN DXB — premium curated collections and immersive luxury storefront."/>
+
+  <link rel="stylesheet"
+        href="style.css"/>
+
+  <script src="script.js"
+          defer></script>
+
+</head>
+
+<body class="page-shop">
+
+  <!-- BACKGROUND -->
+
+  <div class="background-overlay"></div>
+
+  <!-- HEADER -->
+
+  <header class="site-header container">
+
+    <div class="logo-wrap">
+
+      <div class="logo-circle">
+
+        <img src="logo.png"
+             alt="THE KITCHEN DXB"
+             class="logo-img">
+
+      </div>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+
+    <div class="menu-toggle"
+         id="menu-toggle">
+
+         ☰
+
+    </div>
+
+    <!-- NAV -->
+
+    <nav class="main-nav"
+         id="mobile-nav">
+
+      <a href="index.html">
+
+         Home
+
+      </a>
+
+      <a href="shop.html"
+         class="active">
+
+         Shop
+
+      </a>
+
+      <a href="archive.html">
+
+         Archive
+
+      </a>
+
+      <a href="index.html#contact">
+
+         Contact
+
+      </a>
+
+      <a href="index_original.html">
+
+         Mystery
+
+      </a>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="shop-hero">
+
+    <div class="container">
+
+      <span class="city-label">
+
+        PREMIUM COLLECTION
+
+      </span>
+
+      <h1>
+
+        The Vault Collection
+
+      </h1>
+
+      <p class="lead">
+
+        Curated premium selections,
+        modern luxury presentation
+        and immersive storefront atmosphere.
+
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- SEARCH -->
+
+  <section class="shop-controls">
+
+    <div class="container">
+
+      <input type="text"
+             id="searchInput"
+             placeholder="Search collection..."
+             class="search-box"
+             onkeyup="searchProducts()">
+
+      <div class="filter-buttons">
+
+        <button onclick="filterProducts('All')">
+
+          ALL
+
+        </button>
+
+        <button onclick="filterProducts('Exotics')">
+
+          EXOTICS
+
+        </button>
+
+        <button onclick="filterProducts('Oils')">
+
+          OILS
+
+        </button>
+
+        <button onclick="filterProducts('Vapes')">
+
+          VAPES
+
+        </button>
+
+        <button onclick="filterProducts('Edibles')">
+
+          EDIBLES
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PRODUCT GRID -->
+
+  <section class="shop-products">
+
+    <div class="container">
+
+      <div class="product-grid"
+           id="product-grid">
+
+        <!-- PRODUCT -->
+
+        <div class="product-card"
+             data-category="Exotics">
+
+          <div class="product-image"
+               style="background-image:url('exotics.webp')">
+          </div>
+
+          <div class="product-content">
+
+            <span class="product-category">
+
+              EXOTICS
+
+            </span>
+
+            <h3>
+
+              Premium Exotic Collection
+
+            </h3>
+
+            <p>
+
+              Curated luxury presentation
+              with immersive modern atmosphere.
+
+            </p>
+
+            <div class="product-footer">
+
+              <span class="product-price">
+
+                Premium Access
+
+              </span>
+
+              <a href="https://wa.me/237652172270"
+                 target="_blank"
+                 class="product-btn">
+
+                 WhatsApp
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PRODUCT -->
+
+        <div class="product-card"
+             data-category="Oils">
+
+          <div class="product-image"
+               style="background-image:url('oils.webp')">
+          </div>
+
+          <div class="product-content">
+
+            <span class="product-category">
+
+              OILS
+
+            </span>
+
+            <h3>
+
+              THC / CBD Oils
+
+            </h3>
+
+            <p>
+
+              High-end wellness culture
+              and premium modern presentation.
+
+            </p>
+
+            <div class="product-footer">
+
+              <span class="product-price">
+
+                Private Collection
+
+              </span>
+
+              <a href="https://wa.me/237652172270"
+                 target="_blank"
+                 class="product-btn">
+
+                 WhatsApp
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PRODUCT -->
+
+        <div class="product-card"
+             data-category="Vapes">
+
+          <div class="product-image"
+               style="background-image:url('vapes.webp')">
+          </div>
+
+          <div class="product-content">
+
+            <span class="product-category">
+
+              VAPES
+
+            </span>
+
+            <h3>
+
+              Disposable Vapes
+
+            </h3>
+
+            <p>
+
+              Portable premium selections
+              designed around discretion and style.
+
+            </p>
+
+            <div class="product-footer">
+
+              <span class="product-price">
+
+                Modern Series
+
+              </span>
+
+              <a href="https://wa.me/237652172270"
+                 target="_blank"
+                 class="product-btn">
+
+                 WhatsApp
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- PRODUCT -->
+
+        <div class="product-card"
+             data-category="Edibles">
+
+          <div class="product-image"
+               style="background-image:url('edibles.webp')">
+          </div>
+
+          <div class="product-content">
+
+            <span class="product-category">
+
+              EDIBLES
+
+            </span>
+
+            <h3>
+
+              Premium Edibles
+
+            </h3>
+
+            <p>
+
+              Luxury edible presentation
+              within immersive modern branding.
+
+            </p>
+
+            <div class="product-footer">
+
+              <span class="product-price">
+
+                Signature Line
+
+              </span>
+
+              <a href="https://wa.me/237652172270"
+                 target="_blank"
+                 class="product-btn">
+
+                 WhatsApp
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section class="contact-section">
+
+    <div class="container">
+
+      <span class="city-label">
+
+        PRIVATE ACCESS
+
+      </span>
+
+      <h2>
+
+        Enter The Network
+
+      </h2>
+
+      <p class="contact-text">
+
+        Direct communication.
+        Premium coordination.
+        Modern luxury interaction.
+
+      </p>
+
+      <div class="contact-buttons">
+
+        <a href="https://wa.me/237652172270"
+           target="_blank"
+           class="contact-btn whatsapp-btn">
+
+           WhatsApp
+
+        </a>
+
+        <a href="https://t.me/mawjud126"
+           target="_blank"
+           class="contact-btn telegram-btn">
+
+           Telegram
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <p class="small muted">
+
+        THE KITCHEN DXB —
+        immersive luxury storefront
+        and cinematic digital experience.
+
+      </p>
+
+      <small>
+
+        © THE KITCHEN DXB
+
+      </small>
+
+    </div>
+
+  </footer>
+
+  <!-- SHOP SCRIPT -->
+
+  <script>
+
+    function filterProducts(category){
+
+      const products =
+      document.querySelectorAll(".product-card");
+
+      products.forEach(product => {
+
+        if(category === "All"){
+
+          product.style.display = "block";
+
+        }
+
+        else{
+
+          const itemCategory =
+          product.getAttribute(
+            "data-category"
+          );
+
+          if(itemCategory === category){
+
+            product.style.display =
+            "block";
+
+          }
+
+          else{
+
+            product.style.display =
+            "none";
+
+          }
+
+        }
+
+      });
+
+    }
+
+    function searchProducts(){
+
+      const input =
+      document
+      .getElementById("searchInput")
+      .value
+      .toLowerCase();
+
+      const products =
+      document.querySelectorAll(
+        ".product-card"
+      );
+
+      products.forEach(product => {
+
+        const text =
+        product.innerText.toLowerCase();
+
+        if(text.includes(input)){
+
+          product.style.display =
+          "block";
+
+        }
+
+        else{
+
+          product.style.display =
+          "none";
+
+        }
+
+      });
+
+    }
+
+  </script>
+
+</body>
+
+</html>
