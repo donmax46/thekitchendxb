@@ -508,4 +508,38 @@ footer p{
     font-size:13px;
     padding:12px 14px;
   }
+}.article-card{
+background:#111;
+border:1px solid rgba(212,175,55,.15);
+border-radius:18px;
+overflow:hidden;
+transition:.3s ease;
 }
+
+.article-card:hover{
+transform:translateY(-6px);
+border-color:#D4AF37;
+}
+
+.article-card img{
+width:100%;
+height:240px;
+object-fit:cover;
+display:block;
+}
+
+.article-content{
+padding:24px;
+}
+
+.article-content h3{
+color:#D4AF37;
+margin-bottom:12px;
+font-family:'Cinzel',serif;
+}
+
+.article-content p{
+color:#999;
+line-height:1.7;
+}
+
