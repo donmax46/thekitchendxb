@@ -80,44 +80,22 @@ img{
 /* =========================
    NAVBAR
 ========================= */
-
 .nav-container{
+    position:relative;
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-end;
     align-items:center;
     min-height:90px;
 }
 
 .logo{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
     color:var(--gold);
     font-family:'Cinzel',serif;
-    font-size:2.5rem;
-    font-weight:700;
-    text-decoration:none;
-    position:static;
-    transform:none;
-}
-
-.nav-links{
-  display:flex;
-  gap:28px;
-}
-
-.nav-links a{
-  color:var(--white);
-  font-size:14px;
-  transition:var(--transition);
-}
-
-.nav-links a:hover{
-  color:var(--gold);
-}
-
-.menu-toggle{
-  display:none;
-  color:var(--gold);
-  font-size:28px;
-  cursor:pointer;
+    font-size:2.2rem;
+    white-space:nowrap;
 }
 
 /* =========================
@@ -541,5 +519,15 @@ line-height:1.7;
     .btn-secondary{
         width:280px;
     }
+
+}.hero-logo{
+    width:min(500px,80vw);
+    margin:20px auto 30px;
+    display:block;
+}@media(max-width:768px){
+
+.hero-logo{
+    width:min(320px,85vw);
+}
 
 }
