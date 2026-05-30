@@ -91,7 +91,7 @@ img{
 .logo{
     color:var(--gold);
     font-family:'Cinzel',serif;
-    font-size:2.4rem;
+    font-size:2.5rem;
     font-weight:700;
     text-decoration:none;
     position:static;
@@ -315,52 +315,6 @@ footer p{
   font-size:13px;
 }
 
-/* =========================
-   FLOATING BUTTONS
-========================= */
-
-.floating-buttons{
-  position:fixed;
-
-  right:20px;
-  bottom:20px;
-
-  display:flex;
-  flex-direction:column;
-
-  gap:12px;
-
-  z-index:999;
-}
-
-.floating-btn{
-  padding:14px 18px;
-
-  border-radius:12px;
-
-  font-size:14px;
-
-  font-weight:600;
-
-  transition:var(--transition);
-
-  box-shadow:
-  0 8px 25px rgba(0,0,0,.25);
-}
-
-.whatsapp-btn{
-  background:#25D366;
-  color:#fff;
-}
-
-.telegram-btn{
-  background:#229ED9;
-  color:#fff;
-}
-
-.floating-btn:hover{
-  transform:translateY(-3px);
-}
 
 /* =========================
    SCROLL ANIMATION
@@ -437,15 +391,6 @@ footer p{
     font-size:2rem;
   }
 
-  .floating-buttons{
-    right:12px;
-    bottom:12px;
-  }
-
-  .floating-btn{
-    font-size:13px;
-    padding:12px 14px;
-  }
 }.article-card{
 background:#111;
 border:1px solid rgba(212,175,55,.15);
@@ -548,6 +493,53 @@ line-height:1.7;
     .btn-secondary{
         width:100%;
         max-width:320px;
+    }
+
+}.hero-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.btn-primary,
+.btn-secondary{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    min-width:260px;
+    height:60px;
+    font-weight:700;
+}.hero h1{
+    text-shadow:
+    0 0 20px rgba(0,0,0,.8),
+    0 0 40px rgba(0,0,0,.8);
+}.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.btn-primary,
+.btn-secondary{
+    min-width:260px;
+    text-align:center;
+}
+
+@media(max-width:768px){
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:280px;
     }
 
 }
