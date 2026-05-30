@@ -98,35 +98,6 @@ img{
     text-decoration:none;
 }
 
-.logo{
-  font-family:'Cinzel',serif;
-  font-size:1.8rem;
-  color:var(--gold);
-  font-weight:700;
-}
-
-.nav-links{
-  display:flex;
-  gap:28px;
-}
-
-.nav-links a{
-  color:var(--white);
-  font-size:14px;
-  transition:var(--transition);
-}
-
-.nav-links a:hover{
-  color:var(--gold);
-}
-
-.menu-toggle{
-  display:none;
-  color:var(--gold);
-  font-size:28px;
-  cursor:pointer;
-}
-
 /* =========================
    HERO
 ========================= */
@@ -532,6 +503,31 @@ line-height:1.7;
 .blog-article .hero{
     min-height:50vh;
 }.hero-content{
+    max-width:900px;
+    margin:auto;
+    padding:0 20px;
+}
+
+.hero h1{
+    font-size:clamp(3rem,10vw,7rem);
+    line-height:1;
+}
+
+.hero-description{
+    max-width:700px;
+    margin:30px auto;
+}@media(max-width:768px){
+
+    .logo{
+        font-size:2rem;
+    }
+
+    .menu-toggle{
+        margin-left:auto;
+        z-index:1001;
+    }
+
+.hero-content{
     max-width:900px;
     margin:auto;
     padding:0 20px;
