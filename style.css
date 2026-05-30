@@ -555,4 +555,14 @@ line-height:1.7;
     display:block;
     margin:120px auto 40px;
     border-radius:20px;
+}.article-featured-image{
+    width:100%;
+    max-width:1200px;
+    display:block;
+    margin:120px auto 40px;
+    border-radius:20px;
+}
+
+.blog-article .hero{
+    min-height:50vh;
 }
