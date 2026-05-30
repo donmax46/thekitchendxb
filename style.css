@@ -543,3 +543,10 @@ color:#999;
 line-height:1.7;
 }
 
+.hero{
+    min-height:70vh;
+}
+
+.blog-article .hero{
+    min-height:50vh;
+}
