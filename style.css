@@ -1,5 +1,5 @@
 /* =========================
-   THE KITCHEN 2026
+   THE KITCHEN DXB 2026
    Luxury Black & Gold Theme
 ========================= */
 
@@ -549,4 +549,10 @@ line-height:1.7;
 
 .blog-article .hero{
     min-height:50vh;
+}.article-featured-image{
+    width:100%;
+    max-width:1200px;
+    display:block;
+    margin:120px auto 40px;
+    border-radius:20px;
 }
