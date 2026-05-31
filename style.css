@@ -425,6 +425,28 @@ color:var(--gray);
 line-height:1.7;
 }
 /* =========================
+FEATURED ARTICLE
+========================= */
+
+.featured-article .article-card{
+max-width:900px;
+margin:auto;
+}
+
+.featured-article img{
+height:420px;
+object-fit:cover;
+}
+
+.featured-article .article-content{
+text-align:center;
+}
+
+.featured-article .btn-primary{
+margin-top:20px;
+}
+
+/* =========================
 COMMUNITY CTA
 ========================= */
 
@@ -507,7 +529,9 @@ line-height:1.9;
 /* =========================
 MOBILE
 ========================= */
-
+.nav-links{
+  display:flex;
+}
 @media(max-width:900px){
 
 .nav-links{
