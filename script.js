@@ -7,22 +7,36 @@
    MOBILE MENU
 ========================= */
 
-const menuToggle = document.getElementById("menuToggle");
-const navLinks = document.getElementById("navLinks");
+const revealElements = document.querySelectorAll(
+".feature-card, .category-card, .selection-card, .community-cta, .article-card"
+);
 
-if (menuToggle && navLinks) {
+function revealOnScroll() {
 
-  menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
+const triggerBottom = window.innerHeight * 0.85;
 
-  document.querySelectorAll("#navLinks a").forEach(link => {
-    link.addEventListener("click", () => {
-      navLinks.classList.remove("active");
-    });
-  });
+revealElements.forEach(element => {
+
+```
+const elementTop = element.getBoundingClientRect().top;
+
+if (elementTop < triggerBottom) {
+
+  element.classList.add("reveal");
+
+  setTimeout(() => {
+    element.classList.add("active");
+  }, 100);
 
 }
+```
+
+});
+
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
 
 /* =========================
    NAVBAR SCROLL EFFECT
