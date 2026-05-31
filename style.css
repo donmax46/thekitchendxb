@@ -382,3 +382,199 @@ box-shadow:
 .selection-card h3{
 color:var(--gold-light);
 }
+/* =========================
+BLOG CARDS
+========================= */
+
+.article-card{
+background:var(--card);
+
+border:1px solid var(--border);
+
+border-radius:var(--radius);
+
+overflow:hidden;
+
+transition:var(--transition);
+}
+
+.article-card:hover{
+transform:translateY(-8px);
+
+border-color:var(--gold);
+}
+
+.article-card img{
+width:100%;
+height:240px;
+object-fit:cover;
+}
+
+.article-content{
+padding:24px;
+}
+
+.article-content h3{
+color:var(--gold);
+margin-bottom:12px;
+font-family:'Cinzel',serif;
+}
+
+.article-content p{
+color:var(--gray);
+line-height:1.7;
+}
+/* =========================
+COMMUNITY CTA
+========================= */
+
+.community-cta{
+text-align:center;
+}
+
+.community-cta h2{
+color:var(--gold);
+
+font-size:clamp(2rem,5vw,3rem);
+
+font-family:'Cinzel',serif;
+
+margin-bottom:20px;
+}
+
+.community-cta p{
+max-width:700px;
+
+margin:0 auto;
+
+color:var(--gray);
+
+line-height:1.8;
+}
+/* =========================
+FOOTER
+========================= */
+
+footer{
+border-top:1px solid rgba(255,255,255,.05);
+
+padding:60px 0;
+
+text-align:center;
+}
+
+.footer-logo{
+color:var(--gold);
+
+font-family:'Cinzel',serif;
+
+font-size:2rem;
+
+margin-bottom:15px;
+}
+
+footer p{
+color:var(--gray);
+}
+
+.copyright{
+margin-top:20px;
+font-size:13px;
+}
+/* =========================
+ARTICLE PAGES
+========================= */
+
+.blog-article .hero{
+min-height:50vh;
+}
+
+.article-featured-image{
+width:100%;
+
+max-width:1200px;
+
+margin:120px auto 40px;
+
+border-radius:20px;
+
+display:block;
+}
+
+.blog-article .container p{
+line-height:1.9;
+}
+/* =========================
+MOBILE
+========================= */
+
+@media(max-width:900px){
+
+.nav-links{
+position:absolute;
+
+```
+top:90px;
+left:0;
+
+width:100%;
+
+background:#0b0b0b;
+
+flex-direction:column;
+
+padding:30px;
+
+display:none;
+
+border-bottom:1px solid var(--border);
+```
+
+}
+
+.nav-links.active{
+display:flex;
+}
+
+.menu-toggle{
+display:block;
+}
+
+}
+
+@media(max-width:768px){
+
+.logo{
+font-size:2rem;
+}
+
+.hero-logo{
+width:min(260px,75vw);
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.btn-primary,
+.btn-secondary{
+width:280px;
+}
+
+}
+
+@media(max-width:600px){
+
+section{
+padding:70px 0;
+}
+
+.hero h2{
+font-size:1.3rem;
+}
+
+.hero-description{
+font-size:.95rem;
+}
+
+}
