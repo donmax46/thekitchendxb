@@ -520,6 +520,50 @@ display:block;
 
 .blog-article .container p{
 line-height:1.9;
+}.blog-article .hero{
+min-height:50vh;
+padding-top:0;
+}
+
+.blog-article .hero-content{
+max-width:900px;
+margin:auto;
+text-align:center;
+padding:20px;
+}
+
+.blog-article .hero-tag{
+color:var(--gold);
+letter-spacing:3px;
+font-size:.9rem;
+margin-bottom:20px;
+}
+
+.blog-article .hero h1{
+font-family:'Cinzel',serif;
+font-size:clamp(2.5rem,6vw,5rem);
+line-height:1.1;
+color:var(--gold);
+margin-bottom:20px;
+}
+
+.blog-article .hero-description{
+max-width:700px;
+margin:0 auto;
+line-height:1.8;
+color:var(--gray);
+}
+
+.blog-article h2{
+color:var(--gold);
+font-family:'Cinzel',serif;
+margin-bottom:20px;
+margin-top:20px;
+}
+
+.blog-article p{
+line-height:1.9;
+color:var(--white);
 }
 /* =========================
 MOBILE
@@ -572,6 +616,12 @@ flex-direction:column;
 width:280px;
 }
 
+.navbar-logo{
+height:40px;
+width:auto;
+display:block;
+}
+
 }
 
 @media(max-width:600px){
@@ -588,31 +638,12 @@ font-size:1.3rem;
 font-size:.95rem;
 }
 
-.navbar-logo{
-    height:48px;
-    width:auto;
-    display:block;
 }
 
-.logo{
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-@media(max-width:768px){
-
-    .navbar-logo{
-        height:40px;
-    }
-
-}.hero h1{
-    font-family:'Cinzel',serif;
-    font-size:clamp(3rem,8vw,6rem);
-    color:var(--gold);
-    margin-bottom:20px;
-    line-height:1;
+.hero h1{
+font-family:'Cinzel',serif;
+font-size:clamp(3rem,8vw,6rem);
+color:var(--gold);
+margin-bottom:20px;
+line-height:1;
 }
