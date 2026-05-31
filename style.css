@@ -213,11 +213,6 @@ font-size:.9rem;
 margin-bottom:25px;
 }
 
-.hero-logo{
-width:min(320px,75vw);
-margin:0 auto 30px;
-}
-
 .hero h2{
 font-family:'Cinzel',serif;
 font-size:clamp(1.4rem,4vw,2.5rem);
@@ -568,10 +563,6 @@ display:block;
 font-size:2rem;
 }
 
-.hero-logo{
-width:min(260px,75vw);
-}
-
 .hero-buttons{
 flex-direction:column;
 }
@@ -597,4 +588,31 @@ font-size:1.3rem;
 font-size:.95rem;
 }
 
+.navbar-logo{
+    height:48px;
+    width:auto;
+    display:block;
+}
+
+.logo{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+@media(max-width:768px){
+
+    .navbar-logo{
+        height:40px;
+    }
+
+}.hero h1{
+    font-family:'Cinzel',serif;
+    font-size:clamp(3rem,8vw,6rem);
+    color:var(--gold);
+    margin-bottom:20px;
+    line-height:1;
 }
