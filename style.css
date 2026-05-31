@@ -235,3 +235,150 @@ line-height:1.9;
 font-size:1.05rem;
 }
 
+/* =========================
+BUTTONS
+========================= */
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+align-items:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+margin-top:40px;
+}
+
+.btn-primary{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+
+min-width:260px;
+height:60px;
+
+background:linear-gradient(
+135deg,
+var(--gold),
+var(--gold-light)
+);
+
+color:#000;
+
+border-radius:12px;
+
+font-weight:700;
+
+transition:var(--transition);
+}
+
+.btn-primary:hover{
+transform:translateY(-4px);
+}
+
+.btn-secondary{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+
+min-width:260px;
+height:60px;
+
+border:1px solid var(--gold);
+
+color:var(--gold);
+
+border-radius:12px;
+
+font-weight:700;
+
+transition:var(--transition);
+}
+
+.btn-secondary:hover{
+background:var(--gold);
+color:#000;
+}
+/* =========================
+FEATURE CARDS
+========================= */
+
+.feature-grid{
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+}
+
+.feature-card{
+background:var(--card);
+
+padding:35px;
+
+border-radius:var(--radius);
+
+border:1px solid var(--border);
+
+transition:var(--transition);
+}
+
+.feature-card:hover{
+transform:translateY(-8px);
+border-color:var(--gold);
+}
+
+.feature-card h3{
+color:var(--gold);
+margin-bottom:15px;
+}
+
+.feature-card p{
+color:var(--gray);
+line-height:1.8;
+}
+/* =========================
+CATEGORY & SELECTION CARDS
+========================= */
+
+.card-grid{
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+}
+
+.category-card,
+.selection-card{
+background:var(--card);
+
+padding:60px 25px;
+
+border-radius:var(--radius);
+
+text-align:center;
+
+border:1px solid var(--border);
+
+transition:var(--transition);
+}
+
+.category-card:hover,
+.selection-card:hover{
+transform:translateY(-8px);
+
+border-color:var(--gold);
+
+box-shadow:
+0 0 20px rgba(212,175,55,.15);
+}
+
+.category-card h3,
+.selection-card h3{
+color:var(--gold-light);
+}
