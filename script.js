@@ -42,21 +42,34 @@ window.addEventListener("load", revealOnScroll);
    NAVBAR SCROLL EFFECT
 ========================= */
 
-const navbar = document.querySelector(".navbar");
+const revealElements = document.querySelectorAll(
+  ".feature-card, .category-card, .selection-card, .community-cta, .article-card"
+);
 
-window.addEventListener("scroll", () => {
+function revealOnScroll() {
 
-  if (!navbar) return;
+  const triggerBottom = window.innerHeight * 0.85;
 
-  if (window.scrollY > 50) {
-    navbar.style.background = "rgba(5,5,5,0.95)";
-    navbar.style.boxShadow = "0 10px 30px rgba(0,0,0,0.25)";
-  } else {
-    navbar.style.background = "rgba(5,5,5,0.75)";
-    navbar.style.boxShadow = "none";
-  }
+  revealElements.forEach(element => {
 
-});
+    const elementTop = element.getBoundingClientRect().top;
+
+    if (elementTop < triggerBottom) {
+
+      element.classList.add("reveal");
+
+      setTimeout(() => {
+        element.classList.add("active");
+      }, 100);
+
+    }
+
+  });
+
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
 
 /* =========================
    REVEAL ON SCROLL
