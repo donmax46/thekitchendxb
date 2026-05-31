@@ -107,11 +107,20 @@ min-height:70px;
 }
 
 .logo{
-color:var(--gold);
-font-family:'Cinzel',serif;
-font-size:1.7rem;
-font-weight:700;
-white-space:nowrap;
+display:flex;
+align-items:center;
+text-decoration:none;
+}
+
+.navbar-logo{
+height:42px;
+width:auto;
+display:block;
+transition:0.3s ease;
+}
+
+.navbar-logo:hover{
+opacity:.85;
 }
 
 .nav-links{
@@ -626,4 +635,10 @@ font-size:clamp(3rem,8vw,6rem);
 color:var(--gold);
 margin-bottom:20px;
 line-height:1;
+}@media(max-width:768px){
+
+.navbar-logo{
+height:38px;
+}
+
 }
