@@ -61,9 +61,11 @@ function revealOnScroll() {
     const elementTop = element.getBoundingClientRect().top;
 
     if (elementTop < triggerBottom) {
-      element.classList.add("active");
       element.classList.add("reveal");
-    }
+
+         setTimeout(() => {
+            element.classList.add("active");
+     }, 100);
 
   });
 
