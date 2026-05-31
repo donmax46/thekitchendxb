@@ -63,7 +63,7 @@ window.addEventListener("scroll", () => {
 ========================= */
 
 const revealElements = document.querySelectorAll(
-  ".feature-card, .category-card, .selection-card, .community-cta"
+  ".feature-card, .category-card, .selection-card, .community-cta, .article-card"
 );
 
 function revealOnScroll() {
@@ -75,11 +75,14 @@ function revealOnScroll() {
     const elementTop = element.getBoundingClientRect().top;
 
     if (elementTop < triggerBottom) {
+
       element.classList.add("reveal");
 
-         setTimeout(() => {
-            element.classList.add("active");
-     }, 100);
+      setTimeout(() => {
+        element.classList.add("active");
+      }, 100);
+
+    }
 
   });
 
