@@ -564,7 +564,20 @@ margin-top:20px;
 .blog-article p{
 line-height:1.9;
 color:var(--white);
+.featured-guide .article-card{
+max-width:900px;
+margin:auto;
 }
+
+.featured-guide img{
+height:400px;
+object-fit:cover;
+}
+
+.featured-guide .article-content{
+text-align:center;
+}
+
 /* =========================
 MOBILE
 ========================= */
