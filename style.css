@@ -536,8 +536,6 @@ MOBILE
 
 .nav-links{
 position:absolute;
-
-```
 top:90px;
 left:0;
 
@@ -552,8 +550,6 @@ padding:30px;
 display:none;
 
 border-bottom:1px solid var(--border);
-```
-
 }
 
 .nav-links.active{
