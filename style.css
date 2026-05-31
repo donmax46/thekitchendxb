@@ -127,6 +127,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 min-height:70px;
+position:relative;
 }
 
 .nav-links{
@@ -138,18 +139,20 @@ gap:24px;
 color:var(--white);
 transition:var(--transition);
 }
+.navbar{
+height:70px;
+}
 
 .nav-links a:hover{
 color:var(--gold);
-}
-
-.menu-toggle{
+  
+}.menu-toggle{
 display:none;
 color:var(--gold);
 font-size:2rem;
 cursor:pointer;
 }
-}/* =========================
+/* =========================
 HERO
 ========================= */
 
@@ -586,27 +589,20 @@ text-align:center;
 /* =========================
 MOBILE
 ========================= */
-.nav-links{
-  display:flex;
-}
+
 @media(max-width:900px){
 
 .nav-links{
 position:absolute;
-top:90px;
+top:100%;
 left:0;
-
 width:100%;
-
 background:#0b0b0b;
-
 flex-direction:column;
-
 padding:30px;
-
 display:none;
-
 border-bottom:1px solid var(--border);
+z-index:999;
 }
 
 .nav-links.active{
@@ -615,6 +611,19 @@ display:flex;
 
 .menu-toggle{
 display:block;
+}
+
+}
+
+@media(max-width:768px){
+
+.navbar-logo{
+width:36px;
+height:36px;
+}
+
+.navbar-brand{
+font-size:1rem;
 }
 
 }
@@ -631,31 +640,6 @@ font-size:1.3rem;
 
 .hero-description{
 font-size:.95rem;
-}
-
-}
-
-.hero h1{
-font-family:'Cinzel',serif;
-font-size:clamp(3rem,8vw,6rem);
-color:var(--gold);
-margin-bottom:20px;
-line-height:1;
-}@media(max-width:768px){
-
-.navbar-logo{
-height:38px;
-}
-
-}@media(max-width:768px){
-
-.navbar-logo{
-width:36px;
-height:36px;
-}
-
-.navbar-brand{
-font-size:1rem;
 }
 
 }
