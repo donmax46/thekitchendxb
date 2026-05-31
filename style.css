@@ -99,28 +99,34 @@ background:rgba(5,5,5,.92);
 backdrop-filter:blur(12px);
 }
 
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+text-decoration:none;
+}
+
+.navbar-logo{
+width:42px;
+height:42px;
+object-fit:cover;
+border-radius:50%;
+display:block;
+}
+
+.navbar-brand{
+font-family:'Cinzel',serif;
+font-size:1.2rem;
+font-weight:700;
+color:var(--gold);
+letter-spacing:.5px;
+}
+
 .nav-container{
 display:flex;
 justify-content:space-between;
 align-items:center;
 min-height:70px;
-}
-
-.logo{
-display:flex;
-align-items:center;
-text-decoration:none;
-}
-
-.navbar-logo{
-height:42px;
-width:auto;
-display:block;
-transition:0.3s ease;
-}
-
-.navbar-logo:hover{
-opacity:.85;
 }
 
 .nav-links{
@@ -639,6 +645,17 @@ line-height:1;
 
 .navbar-logo{
 height:38px;
+}
+
+}@media(max-width:768px){
+
+.navbar-logo{
+width:36px;
+height:36px;
+}
+
+.navbar-brand{
+font-size:1rem;
 }
 
 }
