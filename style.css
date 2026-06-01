@@ -127,6 +127,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 min-height:70px;
+position:relative;
 }
 
 .nav-links{
@@ -149,7 +150,7 @@ color:var(--gold);
 font-size:2rem;
 cursor:pointer;
 }
-}/* =========================
+/* =========================
 HERO
 ========================= */
 
@@ -593,7 +594,7 @@ MOBILE
 
 .nav-links{
 position:absolute;
-top:90px;
+top:100px;
 left:0;
 
 width:100%;
