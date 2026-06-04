@@ -2,64 +2,38 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://thekitchendxb.com/</loc>
-<priority>1.0</priority>
-</url>
+<url><loc>https://thekitchendxb.com/</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/about.html</loc>
-<priority>0.8</priority>
-</url>
+<url><loc>https://thekitchendxb.com/about.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/dubai.html</loc>
-<priority>0.9</priority>
-</url>
+<url><loc>https://thekitchendxb.com/dubai.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/blog.html</loc>
-<priority>0.9</priority>
-</url>
+<url><loc>https://thekitchendxb.com/blog.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/selections.html</loc>
-<priority>0.8</priority>
-</url>
+<url><loc>https://thekitchendxb.com/selections.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/channels.html</loc>
-<priority>0.7</priority>
-</url>
+<url><loc>https://thekitchendxb.com/channels.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/contact.html</loc>
-<priority>0.7</priority>
-</url>
+<url><loc>https://thekitchendxb.com/contact.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/blog/move-to-dubai-2026.html</loc>
-<priority>0.8</priority>
-</url>
+<url><loc>https://thekitchendxb.com/blog/move-to-dubai-2026.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/blog/cost-of-living-dubai.html</loc>
-<priority>0.8</priority>
-</url>
+<url><loc>https://thekitchendxb.com/blog/dubai-visa-guide.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/blog/starting-business-dubai.html</loc>
-<priority>0.8</priority>
-</url>
+<url><loc>https://thekitchendxb.com/blog/cost-of-living-dubai.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/blog/best-areas-live-dubai.html</loc>
-<priority>0.8</priority>
-</url>
+<url><loc>https://thekitchendxb.com/blog/best-areas-live-dubai.html</loc></url>
 
-<url>
-<loc>https://thekitchendxb.com/blog/business-opportunities-uae.html</loc>
-<priority>0.8</priority>
-</url>
+<url><loc>https://thekitchendxb.com/blog/buy-property-dubai.html</loc></url>
+
+<url><loc>https://thekitchendxb.com/blog/remote-work-uae.html</loc></url>
+
+<url><loc>https://thekitchendxb.com/blog/dubai-nightlife-guide.html</loc></url>
+
+<url><loc>https://thekitchendxb.com/blog/starting-business-dubai.html</loc></url>
+
+<url><loc>https://thekitchendxb.com/blog/business-opportunities-uae.html</loc></url>
+
+<url><loc>https://thekitchendxb.com/blog/best-business-ideas-uae.html</loc></url>
 
 </urlset>
