@@ -17,7 +17,7 @@ VARIABLES
 --gold-light:#F0D67A;
 
 --white:#f5f5f5;
---gray:#c0c0c0;
+--gray:#d0d0d0;
   
 --border:rgba(212,175,55,.15);
 
@@ -43,17 +43,7 @@ scroll-behavior:smooth;
 
 body{
 
-background:
-linear-gradient(
-rgba(5,5,5,.92),
-rgba(5,5,5,.97)
-),
-url("assets/images/smoke-bg.png");
-
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-background-attachment:fixed;
+background:#0c0c0f;
 
 color:var(--white);
 
@@ -110,12 +100,13 @@ top:0;
 left:0;
 width:100%;
 z-index:1000;
-.feature-card,
-.category-card,
-.selection-card,
-.article-card{
-background:rgba(26,26,32,.85);
-backdrop-filter:blur(10px);}
+
+background:rgba(12,12,15,.85);
+
+backdrop-filter:blur(18px);
+
+border-bottom:1px solid rgba(212,175,55,.08);
+}
 
 .logo{
 display:flex;
@@ -330,8 +321,8 @@ repeat(auto-fit,minmax(280px,1fr));
 gap:25px;
 }
 
-.feature-card{
-background:var(--card);
+background:rgba(26,26,32,.85);
+backdrop-filter:blur(10px);
 
 padding:35px;
 
@@ -369,9 +360,8 @@ repeat(auto-fit,minmax(220px,1fr));
 gap:25px;
 }
 
-.category-card,
-.selection-card{
-background:var(--card);
+background:rgba(26,26,32,.85);
+backdrop-filter:blur(10px);
 
 padding:60px 25px;
 
@@ -425,8 +415,8 @@ overflow:hidden;
 transition:var(--transition);
 }
 
-.article-card:hover{
-transform:translateY(-8px);
+background:rgba(26,26,32,.85);
+backdrop-filter:blur(10px);
 
 border-color:var(--gold);
 }
