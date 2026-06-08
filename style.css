@@ -6,23 +6,28 @@ THE KITCHEN DXB
 /* =========================
 VARIABLES
 ========================= */
-
 :root{
 
 --black:#050505;
---black-soft:#0d0d0d;
 --card:#111111;
+--white:#F5F5F5;
+--gray:#9a9a9a;
 
 --gold:#D4AF37;
 --gold-light:#F0D67A;
 
---white:#F5F5F5;
---gray:#9a9a9a;
+--blue:#4DA3FF;
+--blue-light:#8BC3FF;
+
+--green:#3CCF91;
+--green-light:#8AF0C8;
+
+--purple:#9B5DE5;
+--purple-light:#C8A2FF;
 
 --border:rgba(212,175,55,.15);
 
 --radius:18px;
-
 --transition:.3s ease;
 
 }
@@ -697,4 +702,34 @@ margin:30px auto;
 border-radius:12px;
 
 }
+/* GOLD */
+.theme-gold{
+--gold:#D4AF37;
+--gold-light:#F0D67A;
+}
 
+/* BLUE */
+.theme-blue{
+--gold:#4DA3FF;
+--gold-light:#8BC3FF;
+}
+
+/* GREEN */
+.theme-green{
+--gold:#3CCF91;
+--gold-light:#8AF0C8;
+}
+
+/* PURPLE */
+.theme-purple{
+--gold:#9B5DE5;
+--gold-light:#C8A2FF;
+}
+.theme-btn{
+background:none;
+border:none;
+font-size:1.3rem;
+cursor:pointer;
+color:var(--gold);
+margin-left:15px;
+}
