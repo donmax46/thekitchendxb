@@ -45,8 +45,8 @@ body{
 
 background:
 linear-gradient(
-rgba(5,5,5,.92),
-rgba(5,5,5,.97)
+rgba(0,0,0,.4),
+rgba(0,0,0,.4)
 ),
 url("assets/images/smoke-bg.png");
 
@@ -164,7 +164,7 @@ color:var(--gold);
 font-size:2rem;
 cursor:pointer;
 }
-}/* =========================
+/* =========================
 HERO
 ========================= */
 
