@@ -42,10 +42,25 @@ scroll-behavior:smooth;
 }
 
 body{
-background:var(--black);
+
+background:
+linear-gradient(
+rgba(5,5,5,.92),
+rgba(5,5,5,.97)
+),
+url("assets/images/smoke-bg.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
 color:var(--white);
+
 font-family:'Inter',sans-serif;
+
 overflow-x:hidden;
+
 }
 
 a{
