@@ -23,36 +23,7 @@ navLinks.classList.remove("active");
 });
 
 }
-const themes = [
-"theme-gold",
-"theme-blue",
-"theme-green",
-"theme-purple"
-];
 
-let currentTheme = 0;
-
-const btn = document.getElementById("themeSwitcher");
-
-if(btn){
-
-btn.addEventListener("click", () => {
-
-document.body.classList.remove(...themes);
-
-currentTheme++;
-
-if(currentTheme >= themes.length){
-currentTheme = 0;
-}
-
-document.body.classList.add(
-themes[currentTheme]
-);
-
-});
-
-}
 /* =========================
 NAVBAR SCROLL EFFECT
 ========================= */
