@@ -763,3 +763,35 @@ object-fit:cover;
 display:block;
 border:3px solid red;
 }
+.vault-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.vault-item{
+background:#1a1a20;
+border:1px solid rgba(212,175,55,.15);
+border-radius:18px;
+overflow:hidden;
+}
+
+.vault-item img{
+width:100%;
+height:260px;
+object-fit:cover;
+display:block;
+}
+
+.vault-content{
+padding:20px;
+}
+
+.vault-content h3{
+color:#D4AF37;
+margin-bottom:10px;
+}
+
+.vault-content p{
+color:#d0d0d0;
+}
