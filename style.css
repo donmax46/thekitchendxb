@@ -1611,3 +1611,16 @@ color:var(--gray);
 line-height:1.8;
 text-align:center;
 }
+.blog-article a{
+color:var(--gold);
+text-decoration:none;
+transition:.3s ease;
+}
+
+.blog-article a:hover{
+color:var(--gold-light);
+}
+
+.blog-article ul li{
+margin-bottom:12px;
+}
