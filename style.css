@@ -670,14 +670,12 @@ ARTICLE IMAGES
 
 .article-content img,
 .article-hero img,
-.blog-article img{
-
+.article-featured-image{
 width:100%;
 max-width:900px;
 display:block;
 margin:30px auto;
 border-radius:12px;
-
 }
 .vault-grid{
 display:grid;
@@ -741,4 +739,37 @@ display:block;
 
 .vault-content{
 padding:20px;
+}
+:root{
+
+--black:#0c0c0f;
+--black-soft:#141418;
+--card:#1a1a20;
+
+--gold:#D4AF37;
+--gold-light:#F0D67A;
+
+--white:#f5f5f5;
+--gray:#d0d0d0;
+
+--border:rgba(212,175,55,.15);
+--radius:18px;
+--transition:.3s ease;
+
+}:root{
+
+--black:#0c0c0f;
+--black-soft:#141418;
+--card:#1a1a20;
+
+--gold:#D4AF37;
+--gold-light:#F0D67A;
+
+--white:#f5f5f5;
+--gray:#d0d0d0;
+
+--border:rgba(212,175,55,.15);
+--radius:18px;
+--transition:.3s ease;
+
 }
