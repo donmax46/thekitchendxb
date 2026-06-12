@@ -719,3 +719,26 @@ font-family:'Cinzel',serif;
 color:var(--gray);
 line-height:1.7;
 }
+.vault-item{
+background:var(--card);
+border:1px solid rgba(212,175,55,.15);
+border-radius:18px;
+overflow:hidden;
+transition:.3s ease;
+}
+
+.vault-item:hover{
+transform:translateY(-8px);
+border-color:var(--gold);
+}
+
+.vault-item img{
+width:100%;
+height:260px;
+object-fit:cover;
+display:block;
+}
+
+.vault-content{
+padding:20px;
+}
