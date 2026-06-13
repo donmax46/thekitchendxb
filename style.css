@@ -1636,7 +1636,7 @@ color:var(--gold-light);
 margin-bottom:12px;
 }
 .city-section{
-margin-bottom:80px;
+margin-bottom:40px;
 }
 
 .city-title{
@@ -1646,7 +1646,7 @@ font-size:2rem;
 margin-bottom:25px;
 }
 .city-row{
-align-items:flex-start;
+display:flex;
 gap:20px;
 overflow-x:auto;
 scrollbar-width:none;
@@ -1686,8 +1686,8 @@ display:block;
 @media(max-width:768px){
 
 .city-row .article-card{
-min-width:240px;
-max-width:240px;
+min-width:300px;
+max-width:300px;
 }
 
 .article-card img{
