@@ -1646,7 +1646,7 @@ font-size:2rem;
 margin-bottom:25px;
 }
 .city-row{
-display:flex;
+align-items:flex-start;
 gap:20px;
 overflow-x:auto;
 scrollbar-width:none;
@@ -1679,7 +1679,7 @@ flex-shrink:0;
 }
 .article-card img{
 width:100%;
-height:220px;
+height:auto;
 object-fit:cover;
 display:block;
 }
