@@ -440,7 +440,7 @@ FEATURED ARTICLE
 
 .featured-article .article-card{
 max-width:900px;
-margin:auto;
+margin:80px auto 20px;
 }
 
 .featured-article img{
@@ -1452,7 +1452,14 @@ font-size:.95rem;
 }
 
 }
+@media(max-width:768px){
 
+.city-row .article-card{
+min-width:250px;
+max-width:250px;
+}
+
+}
 /* =========================
 HERO TITLE
 ========================= */
@@ -1661,4 +1668,34 @@ width:100%;
 height:220px;
 object-fit:cover;
 display:block;
+}
+.city-row .article-card{
+min-width:280px;
+max-width:280px;
+height:auto;
+}
+
+.city-row .article-content{
+padding:18px;
+}
+
+.city-row .article-content h3{
+font-size:1.2rem;
+margin-bottom:12px;
+}
+
+.city-row .article-content p{
+font-size:.9rem;
+line-height:1.6;
+margin-bottom:15px;
+}
+.blog-page .hero,
+.blog-article .hero{
+min-height:auto;
+padding-top:40px;
+padding-bottom:40px;
+} 
+.blog-page section,
+.blog-article section{
+padding:40px 0;
 }
