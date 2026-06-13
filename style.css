@@ -1634,39 +1634,15 @@ font-family:'Cinzel',serif;
 font-size:2rem;
 margin-bottom:25px;
 }
-
 .city-row{
 display:flex;
 gap:20px;
 overflow-x:auto;
 padding-bottom:15px;
-scroll-snap-type:x proximity;
-}
-
-.city-row::-webkit-scrollbar{
-height:8px;
-}
-
-.city-row::-webkit-scrollbar-thumb{
-background:var(--gold);
-border-radius:20px;
 }
 
 .city-row .article-card{
-min-width:320px;
-max-width:320px;
-flex-shrink:0;
-scroll-snap-align:start;
-}
-.city-row{
-display:flex;
-gap:20px;
-overflow-x:auto;
-padding-bottom:20px;
-}
-
-.city-row .article-card{
-min-width:320px;
-max-width:320px;
+min-width:280px;
+max-width:280px;
 flex-shrink:0;
 }
