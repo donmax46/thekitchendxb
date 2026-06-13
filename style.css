@@ -1149,19 +1149,13 @@ repeat(auto-fit,minmax(220px,1fr));
 gap:25px;
 }
 
-.category-card,
-.selection-card{
-background:var(--card);
-
-padding:60px 25px;
-
-border-radius:var(--radius);
-
-text-align:center;
-
-border:1px solid var(--border);
-
-transition:var(--transition);
+.category-card{
+padding:35px 25px;
+min-height:180px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
 }
 
 .category-card:hover,
@@ -1589,6 +1583,23 @@ border-radius:12px;
 margin-bottom:15px;
 display:block;
 }
+@media(max-width:768px){
+
+.selection-card{
+padding:15px;
+}
+
+.selection-card img{
+height:180px;
+}
+
+.selection-card h3{
+margin-top:10px;
+font-size:1.4rem;
+}
+  
+}
+
 /* =========================
 VAULT BUTTONS
 ========================= */
@@ -1645,4 +1656,18 @@ padding-bottom:15px;
 min-width:280px;
 max-width:280px;
 flex-shrink:0;
+}
+.category-card a,
+.category-card a:visited{
+color:inherit;
+text-decoration:none;
+display:block;
+width:100%;
+height:100%;
+}
+
+.category-card p{
+color:var(--gray);
+margin-top:10px;
+line-height:1.7;
 }
