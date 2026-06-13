@@ -1759,3 +1759,25 @@ padding-bottom:40px;
 .blog-article section{
 padding:40px 0;
 }
+.selection-card{
+overflow:hidden;
+padding:0;
+}
+
+.selection-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+display:block;
+}
+
+.selection-card h3{
+padding:20px;
+margin:0;
+}
+
+.selection-card a{
+display:block;
+color:inherit;
+text-decoration:none;
+}
