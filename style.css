@@ -1752,14 +1752,23 @@ align-items:stretch;
 display:flex;
 flex-direction:column;
 }
-
-.city-row .article-content{
-display:flex;
-flex-direction:column;
-flex-grow:1;
-}
+@media(max-width:768px){
 
 .city-row .btn-primary,
 .city-row .btn-secondary{
-margin-top:auto;
+
+width:80%;
+height:38px;
+
+margin:15px auto;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:.85rem;
+
+min-width:unset;
+}
+
 }
