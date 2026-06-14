@@ -1771,4 +1771,23 @@ font-size:.85rem;
 min-width:unset;
 }
 
+}.city-grid{
+display:grid !important;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.city-card{
+display:block;
+background:#111;
+border-radius:16px;
+overflow:hidden;
+}
+
+.city-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+display:block;
 }
