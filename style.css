@@ -1821,3 +1821,29 @@ color:#d4af37;
 font-weight:600;
 text-decoration:none;
 }
+.featured-city-card h3,
+.city-card h3{
+font-family:'Cinzel', serif;
+font-size:1.5rem;
+font-weight:700;
+color:#d4af37;
+margin-bottom:10px;
+}
+
+.featured-city-card p,
+.city-card p{
+color:#e0e0e0;
+font-size:0.95rem;
+line-height:1.6;
+}.city-card-link{
+display:block;
+text-decoration:none;
+color:inherit;
+height:100%;
+}
+.featured-cities-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
