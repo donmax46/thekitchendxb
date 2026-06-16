@@ -1896,3 +1896,26 @@ grid-template-columns:repeat(2,1fr);
 grid-template-columns:1fr;
 }
 }
+.city-row .article-card{
+min-width:300px;
+max-width:300px;
+overflow:hidden;
+}
+
+.city-row .article-card img{
+height:170px;
+object-fit:cover;
+}
+
+.city-row .article-content{
+padding:15px;
+}
+
+.city-row .article-content p{
+display:none;
+}
+
+.city-row .btn-secondary{
+width:100%;
+height:42px;
+}
