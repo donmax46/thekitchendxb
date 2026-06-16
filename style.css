@@ -1791,3 +1791,33 @@ height:220px;
 object-fit:cover;
 display:block;
 }
+.city-card{
+background:#0d0d0d;
+border-radius:18px;
+overflow:hidden;
+transition:.3s ease;
+}
+
+.city-card:hover{
+transform:translateY(-6px);
+}
+
+.city-card h3{
+font-family:'Cinzel', serif;
+font-size:1.5rem;
+font-weight:700;
+color:#d4af37;
+margin:12px 0 8px;
+}
+
+.city-card p{
+font-size:.95rem;
+color:#ddd;
+margin-bottom:12px;
+}
+
+.city-link{
+color:#d4af37;
+font-weight:600;
+text-decoration:none;
+}
