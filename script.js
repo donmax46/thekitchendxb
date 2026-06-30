@@ -49,7 +49,7 @@ REVEAL ON SCROLL
 ========================= */
 
 const revealElements = document.querySelectorAll(
-".feature-card, .category-card, .selection-card, .community-cta, .article-card"
+".feature-card, .category-card, .selection-card, .community-cta, .article-card, .city-card, .knowledge-card"
 );
 
 function revealOnScroll() {
@@ -58,14 +58,12 @@ const triggerBottom = window.innerHeight * 0.85;
 
 revealElements.forEach(element => {
 
-```
 const elementTop = element.getBoundingClientRect().top;
 
 if (elementTop < triggerBottom) {
   element.classList.add("reveal");
   element.classList.add("active");
 }
-```
 
 });
 
@@ -84,7 +82,6 @@ const hero = document.querySelector(".hero-content");
 
 if (hero) {
 
-```
 hero.style.opacity = "0";
 hero.style.transform = "translateY(20px)";
 hero.style.transition = "all 1s ease";
@@ -93,7 +90,6 @@ setTimeout(() => {
   hero.style.opacity = "1";
   hero.style.transform = "translateY(0)";
 }, 200);
-```
 
 }
 
