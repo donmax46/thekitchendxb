@@ -106,6 +106,24 @@ yearElement.textContent = new Date().getFullYear();
 }
 
 /* =========================
+GLOBAL KNOWLEDGE BUTTON
+========================= */
+
+function injectKnowledgeButton() {
+if (document.querySelector(".knowledge-float")) return;
+
+const knowledgeButton = document.createElement("a");
+knowledgeButton.href = "/uae-dubai/knowledge.html";
+knowledgeButton.className = "knowledge-float";
+knowledgeButton.setAttribute("aria-label", "Open Knowledge Library");
+knowledgeButton.innerHTML = '<span>Knowledge</span><small>UAE Guides</small>';
+
+document.body.appendChild(knowledgeButton);
+}
+
+document.addEventListener("DOMContentLoaded", injectKnowledgeButton);
+
+/* =========================
 CONSOLE BRANDING
 ========================= */
 

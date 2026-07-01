@@ -113,7 +113,7 @@ function navHtml() {
 <a href="../about.html">About</a>
 <a href="../blog.html">Blog</a>
 <a href="../cities.html">Cities</a>
-<a href="knowledge.html">Knowledge</a>
+<a href="/uae-dubai/knowledge.html">Knowledge</a>
 <a href="../contact.html">Contact</a>
 </nav>
 <div class="menu-toggle" id="menuToggle">☰</div>
@@ -125,7 +125,7 @@ function footerHtml() {
   return `<footer>
 <div class="container">
 <div class="footer-logo">THE KITCHEN</div>
-<p>Knowledge - Awareness - Public Safety - Community</p>
+<p>Knowledge &bull; Cities &bull; Opportunities &bull; Community</p>
 <p class="copyright">© 2026 THE KITCHEN. All Rights Reserved.</p>
 </div>
 </footer>`;
@@ -257,7 +257,7 @@ ${groups.get(category).map((item) => `<div class="knowledge-card">
 </section>`)
     .join("\n");
 
-  const body = `<img src="../assets/images/knowledge/knowledge.webp" alt="Knowledge Library" class="article-featured-image">
+  const body = `<img src="../assets/images/knowledge/knowledge.jpg" alt="Knowledge Library" class="article-featured-image">
 <section class="hero">
 <div class="container hero-content">
 <p class="hero-tag">KNOWLEDGE - EDUCATION - AWARENESS</p>
