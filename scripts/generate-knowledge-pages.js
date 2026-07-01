@@ -7,7 +7,10 @@ const outputDir = path.join(rootDir, "uae-dubai");
 const sitemapPath = path.join(rootDir, "sitemap.xml");
 
 const SITE_URL = "https://thekitchendxb.com";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/images/knowledge/knowledge.webp`;
+const FALLBACK_IMAGE_RELATIVE = "assets/images/knowledge/knowledge.jpg";
+const FALLBACK_IMAGE_SRC = `../${FALLBACK_IMAGE_RELATIVE}`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/${FALLBACK_IMAGE_RELATIVE}`;
+const MIN_IMAGE_BYTES = 1024;
 const CATEGORY_ORDER = [
   "Awareness",
   "UAE Drug Laws",
@@ -31,7 +34,7 @@ function escapeAttr(value) {
 }
 
 function readKnowledgeItems() {
-  const raw = fs.readFileSync(dataPath, "utf8");
+  const raw = fs.readFileSync(dataPath, "utf8").replace(/^\uFEFF/, "");
   return JSON.parse(raw);
 }
 
@@ -105,7 +108,7 @@ function navHtml() {
   return `<header class="navbar">
 <div class="container nav-container">
 <a href="../index.html" class="logo">
-<img src="../assets/images/kitchen-logo.webp" alt="THE KITCHEN" class="navbar-logo">
+<img src="../assets/images/kitchen-logo.webp" alt="THE KITCHEN" class="navbar-logo" loading="lazy" decoding="async" width="96" height="96">
 <span class="navbar-brand">THE KITCHEN</span>
 </a>
 <nav class="nav-links" id="navLinks">
@@ -129,6 +132,70 @@ function footerHtml() {
 <p class="copyright">© 2026 THE KITCHEN. All Rights Reserved.</p>
 </div>
 </footer>`;
+}
+
+function imageExists(localRelativePath) {
+  const localPath = path.join(rootDir, localRelativePath);
+  return fs.existsSync(localPath) && fs.statSync(localPath).size >= MIN_IMAGE_BYTES;
+}
+
+function getJpegDimensions(localRelativePath) {
+  const localPath = path.join(rootDir, localRelativePath);
+  const buffer = fs.readFileSync(localPath);
+  let offset = 2;
+
+  if (buffer[0] !== 0xff || buffer[1] !== 0xd8) {
+    return null;
+  }
+
+  while (offset < buffer.length) {
+    if (buffer[offset] !== 0xff) {
+      offset += 1;
+      continue;
+    }
+
+    const marker = buffer[offset + 1];
+    const length = buffer.readUInt16BE(offset + 2);
+
+    if (marker >= 0xc0 && marker <= 0xc3) {
+      return {
+        width: buffer.readUInt16BE(offset + 7),
+        height: buffer.readUInt16BE(offset + 5)
+      };
+    }
+
+    offset += 2 + length;
+  }
+
+  return null;
+}
+
+function resolveImage(ogImage) {
+  let localRelativePath = FALLBACK_IMAGE_RELATIVE;
+
+  if (ogImage && ogImage.startsWith(`${SITE_URL}/`)) {
+    const candidate = ogImage.slice(`${SITE_URL}/`.length);
+    if (!candidate.endsWith("/knowledge/knowledge.webp") && imageExists(candidate)) {
+      localRelativePath = candidate;
+    }
+  }
+
+  if (!imageExists(localRelativePath)) {
+    localRelativePath = FALLBACK_IMAGE_RELATIVE;
+  }
+
+  const dimensions = getJpegDimensions(localRelativePath) || { width: 1200, height: 675 };
+
+  return {
+    url: `${SITE_URL}/${localRelativePath}`,
+    src: `../${localRelativePath}`,
+    width: dimensions.width,
+    height: dimensions.height
+  };
+}
+
+function featuredImageHtml({ image, alt }) {
+  return `<img src="${escapeAttr(image.src)}" alt="${escapeAttr(alt)}" class="article-featured-image" loading="lazy" decoding="async" width="${image.width}" height="${image.height}">`;
 }
 
 function pageShell({ title, description, canonicalUrl, ogType, ogTitle, ogDescription, ogImage, body }) {
@@ -158,13 +225,6 @@ ${footerHtml()}
 `;
 }
 
-function localImagePath(ogImage) {
-  if (!ogImage || !ogImage.startsWith(`${SITE_URL}/`)) {
-    return "../assets/images/knowledge/knowledge.webp";
-  }
-  return `../${ogImage.slice(`${SITE_URL}/`.length)}`;
-}
-
 function renderRelatedCards(item, itemBySlug) {
   return item.relatedSlugs
     .map((slug) => {
@@ -178,6 +238,7 @@ function renderRelatedCards(item, itemBySlug) {
 }
 
 function renderArticlePage(item, itemBySlug) {
+  const image = resolveImage(item.ogImage);
   const bodySections = item.bodySections
     .map((section) => `<h2>${escapeHtml(section.heading)}</h2>
 ${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("\n")}`)
@@ -187,7 +248,7 @@ ${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join(
     .map((takeaway) => `<li>${escapeHtml(takeaway)}</li>`)
     .join("\n");
 
-  const body = `<img src="${escapeAttr(localImagePath(item.ogImage))}" alt="${escapeAttr(item.title)}" class="article-featured-image">
+  const body = `${featuredImageHtml({ image, alt: item.title })}
 <section class="hero">
 <div class="container hero-content">
 <p class="hero-tag">${escapeHtml(item.heroTag)}</p>
@@ -220,7 +281,7 @@ ${renderRelatedCards(item, itemBySlug)}
     ogType: "article",
     ogTitle: item.title,
     ogDescription: item.metaDescription,
-    ogImage: item.ogImage,
+    ogImage: image.url,
     body
   });
 }
@@ -237,6 +298,7 @@ function groupByCategory(items) {
 }
 
 function renderHub(items) {
+  const image = resolveImage(DEFAULT_OG_IMAGE);
   const groups = groupByCategory(items);
   const orderedCategories = [
     ...CATEGORY_ORDER.filter((category) => groups.has(category)),
@@ -257,7 +319,7 @@ ${groups.get(category).map((item) => `<div class="knowledge-card">
 </section>`)
     .join("\n");
 
-  const body = `<img src="../assets/images/knowledge/knowledge.jpg" alt="Knowledge Library" class="article-featured-image">
+  const body = `${featuredImageHtml({ image, alt: "Knowledge Library" })}
 <section class="hero">
 <div class="container hero-content">
 <p class="hero-tag">KNOWLEDGE - EDUCATION - AWARENESS</p>
@@ -280,7 +342,7 @@ ${sections}
     ogType: "website",
     ogTitle: "Dubai Knowledge Library | THE KITCHEN",
     ogDescription: "Educational guides and frequently asked questions about Dubai, UAE laws, travel, public safety and medication awareness.",
-    ogImage: DEFAULT_OG_IMAGE,
+    ogImage: image.url,
     body
   });
 }

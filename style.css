@@ -542,6 +542,10 @@ margin:120px auto 40px;
 border-radius:20px;
 
 display:block;
+aspect-ratio:16/9;
+max-height:560px;
+object-fit:cover;
+background:#111;
 }
 
 .blog-article .container p{
@@ -684,8 +688,7 @@ ARTICLE IMAGES
 ========================= */
 
 .article-content img,
-.article-hero img,
-.article-featured-image{
+.article-hero img{
 width:100%;
 max-width:1200px;
 margin:70px auto 20px;
@@ -1227,6 +1230,13 @@ font-size:.86rem;
 .city-card img,
 .article-card img{
 height:200px;
+}
+
+.article-featured-image{
+width:92%;
+margin:92px auto 28px;
+border-radius:14px;
+max-height:320px;
 }
 
 .city-card-content{
