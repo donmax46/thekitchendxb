@@ -49,7 +49,7 @@ REVEAL ON SCROLL
 ========================= */
 
 const revealElements = document.querySelectorAll(
-".feature-card, .category-card, .selection-card, .community-cta, .article-card"
+".feature-card, .category-card, .selection-card, .community-cta, .article-card, .city-card, .knowledge-card"
 );
 
 function revealOnScroll() {
@@ -58,14 +58,12 @@ const triggerBottom = window.innerHeight * 0.85;
 
 revealElements.forEach(element => {
 
-```
 const elementTop = element.getBoundingClientRect().top;
 
 if (elementTop < triggerBottom) {
   element.classList.add("reveal");
   element.classList.add("active");
 }
-```
 
 });
 
@@ -84,7 +82,6 @@ const hero = document.querySelector(".hero-content");
 
 if (hero) {
 
-```
 hero.style.opacity = "0";
 hero.style.transform = "translateY(20px)";
 hero.style.transition = "all 1s ease";
@@ -93,7 +90,6 @@ setTimeout(() => {
   hero.style.opacity = "1";
   hero.style.transform = "translateY(0)";
 }, 200);
-```
 
 }
 
@@ -108,6 +104,24 @@ const yearElement = document.getElementById("year");
 if (yearElement) {
 yearElement.textContent = new Date().getFullYear();
 }
+
+/* =========================
+GLOBAL KNOWLEDGE BUTTON
+========================= */
+
+function injectKnowledgeButton() {
+if (document.querySelector(".knowledge-float")) return;
+
+const knowledgeButton = document.createElement("a");
+knowledgeButton.href = "/uae-dubai/knowledge.html";
+knowledgeButton.className = "knowledge-float";
+knowledgeButton.setAttribute("aria-label", "Open Knowledge Library");
+knowledgeButton.innerHTML = '<span>Knowledge</span><small>UAE Guides</small>';
+
+document.body.appendChild(knowledgeButton);
+}
+
+document.addEventListener("DOMContentLoaded", injectKnowledgeButton);
 
 /* =========================
 CONSOLE BRANDING
