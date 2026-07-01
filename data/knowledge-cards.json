@@ -1,0 +1,1902 @@
+[
+  {
+    "slug": "dubai-city-intelligence-guide-1",
+    "title": "Dubai City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for Dubai, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "category": "City Intelligence",
+    "keywords": [
+      "dubai",
+      "city-intelligence",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Dubai City Intelligence knowledge guide"
+  },
+  {
+    "slug": "abu-dhabi-travel-safety-guide-1",
+    "title": "Abu Dhabi Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Abu Dhabi, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Abu Dhabi",
+    "category": "Travel Safety",
+    "keywords": [
+      "abu-dhabi",
+      "travel-safety",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Abu Dhabi Travel Safety knowledge guide"
+  },
+  {
+    "slug": "sharjah-legal-awareness-guide-1",
+    "title": "Sharjah Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Sharjah, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Sharjah",
+    "category": "Legal Awareness",
+    "keywords": [
+      "sharjah",
+      "legal-awareness",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Sharjah Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "ras-al-khaimah-opportunity-research-guide-1",
+    "title": "Ras Al Khaimah Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Ras Al Khaimah, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Ras Al Khaimah",
+    "category": "Opportunity Research",
+    "keywords": [
+      "ras-al-khaimah",
+      "opportunity-research",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Ras Al Khaimah Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "doha-community-guides-guide-1",
+    "title": "Doha Community Guides Guide 1",
+    "description": "Educational community guides overview for Doha, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Doha",
+    "category": "Community Guides",
+    "keywords": [
+      "doha",
+      "community-guides",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Doha Community Guides knowledge guide"
+  },
+  {
+    "slug": "riyadh-city-intelligence-guide-1",
+    "title": "Riyadh City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for Riyadh, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Riyadh",
+    "category": "City Intelligence",
+    "keywords": [
+      "riyadh",
+      "city-intelligence",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Riyadh City Intelligence knowledge guide"
+  },
+  {
+    "slug": "jeddah-travel-safety-guide-1",
+    "title": "Jeddah Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Jeddah, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Jeddah",
+    "category": "Travel Safety",
+    "keywords": [
+      "jeddah",
+      "travel-safety",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Jeddah Travel Safety knowledge guide"
+  },
+  {
+    "slug": "muscat-legal-awareness-guide-1",
+    "title": "Muscat Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Muscat, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Muscat",
+    "category": "Legal Awareness",
+    "keywords": [
+      "muscat",
+      "legal-awareness",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Muscat Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "kuwait-city-opportunity-research-guide-1",
+    "title": "Kuwait City Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Kuwait City, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Kuwait City",
+    "category": "Opportunity Research",
+    "keywords": [
+      "kuwait-city",
+      "opportunity-research",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Kuwait City Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "manama-community-guides-guide-1",
+    "title": "Manama Community Guides Guide 1",
+    "description": "Educational community guides overview for Manama, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Manama",
+    "category": "Community Guides",
+    "keywords": [
+      "manama",
+      "community-guides",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Manama Community Guides knowledge guide"
+  },
+  {
+    "slug": "dubai-city-intelligence-guide-2",
+    "title": "Dubai City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for Dubai, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "category": "City Intelligence",
+    "keywords": [
+      "dubai",
+      "city-intelligence",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Dubai City Intelligence knowledge guide"
+  },
+  {
+    "slug": "abu-dhabi-travel-safety-guide-2",
+    "title": "Abu Dhabi Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Abu Dhabi, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Abu Dhabi",
+    "category": "Travel Safety",
+    "keywords": [
+      "abu-dhabi",
+      "travel-safety",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Abu Dhabi Travel Safety knowledge guide"
+  },
+  {
+    "slug": "sharjah-legal-awareness-guide-2",
+    "title": "Sharjah Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Sharjah, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Sharjah",
+    "category": "Legal Awareness",
+    "keywords": [
+      "sharjah",
+      "legal-awareness",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Sharjah Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "ras-al-khaimah-opportunity-research-guide-2",
+    "title": "Ras Al Khaimah Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Ras Al Khaimah, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Ras Al Khaimah",
+    "category": "Opportunity Research",
+    "keywords": [
+      "ras-al-khaimah",
+      "opportunity-research",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Ras Al Khaimah Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "doha-community-guides-guide-2",
+    "title": "Doha Community Guides Guide 2",
+    "description": "Educational community guides overview for Doha, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Doha",
+    "category": "Community Guides",
+    "keywords": [
+      "doha",
+      "community-guides",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Doha Community Guides knowledge guide"
+  },
+  {
+    "slug": "riyadh-city-intelligence-guide-2",
+    "title": "Riyadh City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for Riyadh, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Riyadh",
+    "category": "City Intelligence",
+    "keywords": [
+      "riyadh",
+      "city-intelligence",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Riyadh City Intelligence knowledge guide"
+  },
+  {
+    "slug": "jeddah-travel-safety-guide-2",
+    "title": "Jeddah Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Jeddah, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Jeddah",
+    "category": "Travel Safety",
+    "keywords": [
+      "jeddah",
+      "travel-safety",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Jeddah Travel Safety knowledge guide"
+  },
+  {
+    "slug": "muscat-legal-awareness-guide-2",
+    "title": "Muscat Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Muscat, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Muscat",
+    "category": "Legal Awareness",
+    "keywords": [
+      "muscat",
+      "legal-awareness",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Muscat Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "kuwait-city-opportunity-research-guide-2",
+    "title": "Kuwait City Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Kuwait City, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Kuwait City",
+    "category": "Opportunity Research",
+    "keywords": [
+      "kuwait-city",
+      "opportunity-research",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Kuwait City Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "manama-community-guides-guide-2",
+    "title": "Manama Community Guides Guide 2",
+    "description": "Educational community guides overview for Manama, focused on GCC visitor preparation, public awareness, responsible travel and non-operational research.",
+    "region": "UAE / GCC",
+    "country": "United Arab Emirates",
+    "city": "Manama",
+    "category": "Community Guides",
+    "keywords": [
+      "manama",
+      "community-guides",
+      "uae-gcc",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Manama Community Guides knowledge guide"
+  },
+  {
+    "slug": "london-city-intelligence-guide-1",
+    "title": "London City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for London, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "London",
+    "category": "City Intelligence",
+    "keywords": [
+      "london",
+      "city-intelligence",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "London City Intelligence knowledge guide"
+  },
+  {
+    "slug": "paris-travel-safety-guide-1",
+    "title": "Paris Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Paris, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Paris",
+    "category": "Travel Safety",
+    "keywords": [
+      "paris",
+      "travel-safety",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Paris Travel Safety knowledge guide"
+  },
+  {
+    "slug": "berlin-legal-awareness-guide-1",
+    "title": "Berlin Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Berlin, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Berlin",
+    "category": "Legal Awareness",
+    "keywords": [
+      "berlin",
+      "legal-awareness",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Berlin Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "milan-opportunity-research-guide-1",
+    "title": "Milan Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Milan, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Milan",
+    "category": "Opportunity Research",
+    "keywords": [
+      "milan",
+      "opportunity-research",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Milan Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "madrid-community-guides-guide-1",
+    "title": "Madrid Community Guides Guide 1",
+    "description": "Educational community guides overview for Madrid, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Madrid",
+    "category": "Community Guides",
+    "keywords": [
+      "madrid",
+      "community-guides",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Madrid Community Guides knowledge guide"
+  },
+  {
+    "slug": "amsterdam-city-intelligence-guide-1",
+    "title": "Amsterdam City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for Amsterdam, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Amsterdam",
+    "category": "City Intelligence",
+    "keywords": [
+      "amsterdam",
+      "city-intelligence",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Amsterdam City Intelligence knowledge guide"
+  },
+  {
+    "slug": "lisbon-travel-safety-guide-1",
+    "title": "Lisbon Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Lisbon, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Lisbon",
+    "category": "Travel Safety",
+    "keywords": [
+      "lisbon",
+      "travel-safety",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Lisbon Travel Safety knowledge guide"
+  },
+  {
+    "slug": "athens-legal-awareness-guide-1",
+    "title": "Athens Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Athens, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Athens",
+    "category": "Legal Awareness",
+    "keywords": [
+      "athens",
+      "legal-awareness",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Athens Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "zurich-opportunity-research-guide-1",
+    "title": "Zurich Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Zurich, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Zurich",
+    "category": "Opportunity Research",
+    "keywords": [
+      "zurich",
+      "opportunity-research",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Zurich Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "vienna-community-guides-guide-1",
+    "title": "Vienna Community Guides Guide 1",
+    "description": "Educational community guides overview for Vienna, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Vienna",
+    "category": "Community Guides",
+    "keywords": [
+      "vienna",
+      "community-guides",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Vienna Community Guides knowledge guide"
+  },
+  {
+    "slug": "london-city-intelligence-guide-2",
+    "title": "London City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for London, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "London",
+    "category": "City Intelligence",
+    "keywords": [
+      "london",
+      "city-intelligence",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "London City Intelligence knowledge guide"
+  },
+  {
+    "slug": "paris-travel-safety-guide-2",
+    "title": "Paris Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Paris, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Paris",
+    "category": "Travel Safety",
+    "keywords": [
+      "paris",
+      "travel-safety",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Paris Travel Safety knowledge guide"
+  },
+  {
+    "slug": "berlin-legal-awareness-guide-2",
+    "title": "Berlin Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Berlin, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Berlin",
+    "category": "Legal Awareness",
+    "keywords": [
+      "berlin",
+      "legal-awareness",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Berlin Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "milan-opportunity-research-guide-2",
+    "title": "Milan Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Milan, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Milan",
+    "category": "Opportunity Research",
+    "keywords": [
+      "milan",
+      "opportunity-research",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Milan Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "madrid-community-guides-guide-2",
+    "title": "Madrid Community Guides Guide 2",
+    "description": "Educational community guides overview for Madrid, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Madrid",
+    "category": "Community Guides",
+    "keywords": [
+      "madrid",
+      "community-guides",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Madrid Community Guides knowledge guide"
+  },
+  {
+    "slug": "amsterdam-city-intelligence-guide-2",
+    "title": "Amsterdam City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for Amsterdam, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Amsterdam",
+    "category": "City Intelligence",
+    "keywords": [
+      "amsterdam",
+      "city-intelligence",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Amsterdam City Intelligence knowledge guide"
+  },
+  {
+    "slug": "lisbon-travel-safety-guide-2",
+    "title": "Lisbon Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Lisbon, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Lisbon",
+    "category": "Travel Safety",
+    "keywords": [
+      "lisbon",
+      "travel-safety",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Lisbon Travel Safety knowledge guide"
+  },
+  {
+    "slug": "athens-legal-awareness-guide-2",
+    "title": "Athens Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Athens, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Athens",
+    "category": "Legal Awareness",
+    "keywords": [
+      "athens",
+      "legal-awareness",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Athens Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "zurich-opportunity-research-guide-2",
+    "title": "Zurich Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Zurich, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Zurich",
+    "category": "Opportunity Research",
+    "keywords": [
+      "zurich",
+      "opportunity-research",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Zurich Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "vienna-community-guides-guide-2",
+    "title": "Vienna Community Guides Guide 2",
+    "description": "Educational community guides overview for Vienna, focused on European city research, public awareness, responsible travel and non-operational research.",
+    "region": "Europe",
+    "country": "Europe",
+    "city": "Vienna",
+    "category": "Community Guides",
+    "keywords": [
+      "vienna",
+      "community-guides",
+      "europe",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Vienna Community Guides knowledge guide"
+  },
+  {
+    "slug": "new-york-city-intelligence-guide-1",
+    "title": "New York City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for New York, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "New York",
+    "category": "City Intelligence",
+    "keywords": [
+      "new-york",
+      "city-intelligence",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "New York City Intelligence knowledge guide"
+  },
+  {
+    "slug": "los-angeles-travel-safety-guide-1",
+    "title": "Los Angeles Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Los Angeles, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Los Angeles",
+    "category": "Travel Safety",
+    "keywords": [
+      "los-angeles",
+      "travel-safety",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Los Angeles Travel Safety knowledge guide"
+  },
+  {
+    "slug": "miami-legal-awareness-guide-1",
+    "title": "Miami Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Miami, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Miami",
+    "category": "Legal Awareness",
+    "keywords": [
+      "miami",
+      "legal-awareness",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Miami Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "chicago-opportunity-research-guide-1",
+    "title": "Chicago Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Chicago, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Chicago",
+    "category": "Opportunity Research",
+    "keywords": [
+      "chicago",
+      "opportunity-research",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Chicago Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "houston-community-guides-guide-1",
+    "title": "Houston Community Guides Guide 1",
+    "description": "Educational community guides overview for Houston, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Houston",
+    "category": "Community Guides",
+    "keywords": [
+      "houston",
+      "community-guides",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Houston Community Guides knowledge guide"
+  },
+  {
+    "slug": "san-francisco-city-intelligence-guide-1",
+    "title": "San Francisco City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for San Francisco, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "San Francisco",
+    "category": "City Intelligence",
+    "keywords": [
+      "san-francisco",
+      "city-intelligence",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "San Francisco City Intelligence knowledge guide"
+  },
+  {
+    "slug": "seattle-travel-safety-guide-1",
+    "title": "Seattle Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Seattle, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Seattle",
+    "category": "Travel Safety",
+    "keywords": [
+      "seattle",
+      "travel-safety",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Seattle Travel Safety knowledge guide"
+  },
+  {
+    "slug": "boston-legal-awareness-guide-1",
+    "title": "Boston Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Boston, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Boston",
+    "category": "Legal Awareness",
+    "keywords": [
+      "boston",
+      "legal-awareness",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Boston Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "atlanta-opportunity-research-guide-1",
+    "title": "Atlanta Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Atlanta, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Atlanta",
+    "category": "Opportunity Research",
+    "keywords": [
+      "atlanta",
+      "opportunity-research",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Atlanta Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "las-vegas-community-guides-guide-1",
+    "title": "Las Vegas Community Guides Guide 1",
+    "description": "Educational community guides overview for Las Vegas, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Las Vegas",
+    "category": "Community Guides",
+    "keywords": [
+      "las-vegas",
+      "community-guides",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Las Vegas Community Guides knowledge guide"
+  },
+  {
+    "slug": "new-york-city-intelligence-guide-2",
+    "title": "New York City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for New York, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "New York",
+    "category": "City Intelligence",
+    "keywords": [
+      "new-york",
+      "city-intelligence",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "New York City Intelligence knowledge guide"
+  },
+  {
+    "slug": "los-angeles-travel-safety-guide-2",
+    "title": "Los Angeles Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Los Angeles, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Los Angeles",
+    "category": "Travel Safety",
+    "keywords": [
+      "los-angeles",
+      "travel-safety",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Los Angeles Travel Safety knowledge guide"
+  },
+  {
+    "slug": "miami-legal-awareness-guide-2",
+    "title": "Miami Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Miami, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Miami",
+    "category": "Legal Awareness",
+    "keywords": [
+      "miami",
+      "legal-awareness",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Miami Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "chicago-opportunity-research-guide-2",
+    "title": "Chicago Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Chicago, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Chicago",
+    "category": "Opportunity Research",
+    "keywords": [
+      "chicago",
+      "opportunity-research",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Chicago Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "houston-community-guides-guide-2",
+    "title": "Houston Community Guides Guide 2",
+    "description": "Educational community guides overview for Houston, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Houston",
+    "category": "Community Guides",
+    "keywords": [
+      "houston",
+      "community-guides",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Houston Community Guides knowledge guide"
+  },
+  {
+    "slug": "san-francisco-city-intelligence-guide-2",
+    "title": "San Francisco City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for San Francisco, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "San Francisco",
+    "category": "City Intelligence",
+    "keywords": [
+      "san-francisco",
+      "city-intelligence",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "San Francisco City Intelligence knowledge guide"
+  },
+  {
+    "slug": "seattle-travel-safety-guide-2",
+    "title": "Seattle Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Seattle, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Seattle",
+    "category": "Travel Safety",
+    "keywords": [
+      "seattle",
+      "travel-safety",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Seattle Travel Safety knowledge guide"
+  },
+  {
+    "slug": "boston-legal-awareness-guide-2",
+    "title": "Boston Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Boston, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Boston",
+    "category": "Legal Awareness",
+    "keywords": [
+      "boston",
+      "legal-awareness",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Boston Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "atlanta-opportunity-research-guide-2",
+    "title": "Atlanta Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Atlanta, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Atlanta",
+    "category": "Opportunity Research",
+    "keywords": [
+      "atlanta",
+      "opportunity-research",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Atlanta Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "las-vegas-community-guides-guide-2",
+    "title": "Las Vegas Community Guides Guide 2",
+    "description": "Educational community guides overview for Las Vegas, focused on US city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "USA",
+    "country": "United States",
+    "city": "Las Vegas",
+    "category": "Community Guides",
+    "keywords": [
+      "las-vegas",
+      "community-guides",
+      "usa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Las Vegas Community Guides knowledge guide"
+  },
+  {
+    "slug": "singapore-city-intelligence-guide-1",
+    "title": "Singapore City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for Singapore, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Singapore",
+    "category": "City Intelligence",
+    "keywords": [
+      "singapore",
+      "city-intelligence",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Singapore City Intelligence knowledge guide"
+  },
+  {
+    "slug": "hong-kong-travel-safety-guide-1",
+    "title": "Hong Kong Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Hong Kong, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Hong Kong",
+    "category": "Travel Safety",
+    "keywords": [
+      "hong-kong",
+      "travel-safety",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Hong Kong Travel Safety knowledge guide"
+  },
+  {
+    "slug": "tokyo-legal-awareness-guide-1",
+    "title": "Tokyo Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Tokyo, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Tokyo",
+    "category": "Legal Awareness",
+    "keywords": [
+      "tokyo",
+      "legal-awareness",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Tokyo Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "bangkok-opportunity-research-guide-1",
+    "title": "Bangkok Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Bangkok, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Bangkok",
+    "category": "Opportunity Research",
+    "keywords": [
+      "bangkok",
+      "opportunity-research",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Bangkok Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "istanbul-community-guides-guide-1",
+    "title": "Istanbul Community Guides Guide 1",
+    "description": "Educational community guides overview for Istanbul, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Istanbul",
+    "category": "Community Guides",
+    "keywords": [
+      "istanbul",
+      "community-guides",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Istanbul Community Guides knowledge guide"
+  },
+  {
+    "slug": "baku-city-intelligence-guide-1",
+    "title": "Baku City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for Baku, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Baku",
+    "category": "City Intelligence",
+    "keywords": [
+      "baku",
+      "city-intelligence",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Baku City Intelligence knowledge guide"
+  },
+  {
+    "slug": "tbilisi-travel-safety-guide-1",
+    "title": "Tbilisi Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Tbilisi, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Tbilisi",
+    "category": "Travel Safety",
+    "keywords": [
+      "tbilisi",
+      "travel-safety",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Tbilisi Travel Safety knowledge guide"
+  },
+  {
+    "slug": "mumbai-legal-awareness-guide-1",
+    "title": "Mumbai Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Mumbai, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Mumbai",
+    "category": "Legal Awareness",
+    "keywords": [
+      "mumbai",
+      "legal-awareness",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Mumbai Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "cairo-opportunity-research-guide-1",
+    "title": "Cairo Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Cairo, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Cairo",
+    "category": "Opportunity Research",
+    "keywords": [
+      "cairo",
+      "opportunity-research",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Cairo Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "casablanca-community-guides-guide-1",
+    "title": "Casablanca Community Guides Guide 1",
+    "description": "Educational community guides overview for Casablanca, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Casablanca",
+    "category": "Community Guides",
+    "keywords": [
+      "casablanca",
+      "community-guides",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Casablanca Community Guides knowledge guide"
+  },
+  {
+    "slug": "singapore-city-intelligence-guide-2",
+    "title": "Singapore City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for Singapore, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Singapore",
+    "category": "City Intelligence",
+    "keywords": [
+      "singapore",
+      "city-intelligence",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Singapore City Intelligence knowledge guide"
+  },
+  {
+    "slug": "hong-kong-travel-safety-guide-2",
+    "title": "Hong Kong Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Hong Kong, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Hong Kong",
+    "category": "Travel Safety",
+    "keywords": [
+      "hong-kong",
+      "travel-safety",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Hong Kong Travel Safety knowledge guide"
+  },
+  {
+    "slug": "tokyo-legal-awareness-guide-2",
+    "title": "Tokyo Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Tokyo, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Tokyo",
+    "category": "Legal Awareness",
+    "keywords": [
+      "tokyo",
+      "legal-awareness",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Tokyo Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "bangkok-opportunity-research-guide-2",
+    "title": "Bangkok Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Bangkok, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Bangkok",
+    "category": "Opportunity Research",
+    "keywords": [
+      "bangkok",
+      "opportunity-research",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Bangkok Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "istanbul-community-guides-guide-2",
+    "title": "Istanbul Community Guides Guide 2",
+    "description": "Educational community guides overview for Istanbul, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Istanbul",
+    "category": "Community Guides",
+    "keywords": [
+      "istanbul",
+      "community-guides",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Istanbul Community Guides knowledge guide"
+  },
+  {
+    "slug": "baku-city-intelligence-guide-2",
+    "title": "Baku City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for Baku, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Baku",
+    "category": "City Intelligence",
+    "keywords": [
+      "baku",
+      "city-intelligence",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Baku City Intelligence knowledge guide"
+  },
+  {
+    "slug": "tbilisi-travel-safety-guide-2",
+    "title": "Tbilisi Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Tbilisi, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Tbilisi",
+    "category": "Travel Safety",
+    "keywords": [
+      "tbilisi",
+      "travel-safety",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Tbilisi Travel Safety knowledge guide"
+  },
+  {
+    "slug": "mumbai-legal-awareness-guide-2",
+    "title": "Mumbai Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Mumbai, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Mumbai",
+    "category": "Legal Awareness",
+    "keywords": [
+      "mumbai",
+      "legal-awareness",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Mumbai Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "cairo-opportunity-research-guide-2",
+    "title": "Cairo Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Cairo, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Cairo",
+    "category": "Opportunity Research",
+    "keywords": [
+      "cairo",
+      "opportunity-research",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Cairo Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "casablanca-community-guides-guide-2",
+    "title": "Casablanca Community Guides Guide 2",
+    "description": "Educational community guides overview for Casablanca, focused on global city intelligence, public awareness, responsible travel and non-operational research.",
+    "region": "Global Cities",
+    "country": "Global",
+    "city": "Casablanca",
+    "category": "Community Guides",
+    "keywords": [
+      "casablanca",
+      "community-guides",
+      "global-cities",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Casablanca Community Guides knowledge guide"
+  },
+  {
+    "slug": "lagos-city-intelligence-guide-1",
+    "title": "Lagos City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for Lagos, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Lagos",
+    "category": "City Intelligence",
+    "keywords": [
+      "lagos",
+      "city-intelligence",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Lagos City Intelligence knowledge guide"
+  },
+  {
+    "slug": "nairobi-travel-safety-guide-1",
+    "title": "Nairobi Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Nairobi, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Nairobi",
+    "category": "Travel Safety",
+    "keywords": [
+      "nairobi",
+      "travel-safety",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Nairobi Travel Safety knowledge guide"
+  },
+  {
+    "slug": "johannesburg-legal-awareness-guide-1",
+    "title": "Johannesburg Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Johannesburg, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Johannesburg",
+    "category": "Legal Awareness",
+    "keywords": [
+      "johannesburg",
+      "legal-awareness",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Johannesburg Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "cape-town-opportunity-research-guide-1",
+    "title": "Cape Town Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Cape Town, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Cape Town",
+    "category": "Opportunity Research",
+    "keywords": [
+      "cape-town",
+      "opportunity-research",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Cape Town Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "accra-community-guides-guide-1",
+    "title": "Accra Community Guides Guide 1",
+    "description": "Educational community guides overview for Accra, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Accra",
+    "category": "Community Guides",
+    "keywords": [
+      "accra",
+      "community-guides",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Accra Community Guides knowledge guide"
+  },
+  {
+    "slug": "kigali-city-intelligence-guide-1",
+    "title": "Kigali City Intelligence Guide 1",
+    "description": "Educational city intelligence overview for Kigali, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Kigali",
+    "category": "City Intelligence",
+    "keywords": [
+      "kigali",
+      "city-intelligence",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Kigali City Intelligence knowledge guide"
+  },
+  {
+    "slug": "dakar-travel-safety-guide-1",
+    "title": "Dakar Travel Safety Guide 1",
+    "description": "Educational travel safety overview for Dakar, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Dakar",
+    "category": "Travel Safety",
+    "keywords": [
+      "dakar",
+      "travel-safety",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Dakar Travel Safety knowledge guide"
+  },
+  {
+    "slug": "abidjan-legal-awareness-guide-1",
+    "title": "Abidjan Legal Awareness Guide 1",
+    "description": "Educational legal awareness overview for Abidjan, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Abidjan",
+    "category": "Legal Awareness",
+    "keywords": [
+      "abidjan",
+      "legal-awareness",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Abidjan Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "douala-opportunity-research-guide-1",
+    "title": "Douala Opportunity Research Guide 1",
+    "description": "Educational opportunity research overview for Douala, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Douala",
+    "category": "Opportunity Research",
+    "keywords": [
+      "douala",
+      "opportunity-research",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Douala Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "yaounde-community-guides-guide-1",
+    "title": "Yaounde Community Guides Guide 1",
+    "description": "Educational community guides overview for Yaounde, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Yaounde",
+    "category": "Community Guides",
+    "keywords": [
+      "yaounde",
+      "community-guides",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Yaounde Community Guides knowledge guide"
+  },
+  {
+    "slug": "lagos-city-intelligence-guide-2",
+    "title": "Lagos City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for Lagos, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Lagos",
+    "category": "City Intelligence",
+    "keywords": [
+      "lagos",
+      "city-intelligence",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Lagos City Intelligence knowledge guide"
+  },
+  {
+    "slug": "nairobi-travel-safety-guide-2",
+    "title": "Nairobi Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Nairobi, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Nairobi",
+    "category": "Travel Safety",
+    "keywords": [
+      "nairobi",
+      "travel-safety",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Nairobi Travel Safety knowledge guide"
+  },
+  {
+    "slug": "johannesburg-legal-awareness-guide-2",
+    "title": "Johannesburg Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Johannesburg, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Johannesburg",
+    "category": "Legal Awareness",
+    "keywords": [
+      "johannesburg",
+      "legal-awareness",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Johannesburg Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "cape-town-opportunity-research-guide-2",
+    "title": "Cape Town Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Cape Town, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Cape Town",
+    "category": "Opportunity Research",
+    "keywords": [
+      "cape-town",
+      "opportunity-research",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Cape Town Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "accra-community-guides-guide-2",
+    "title": "Accra Community Guides Guide 2",
+    "description": "Educational community guides overview for Accra, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Accra",
+    "category": "Community Guides",
+    "keywords": [
+      "accra",
+      "community-guides",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Accra Community Guides knowledge guide"
+  },
+  {
+    "slug": "kigali-city-intelligence-guide-2",
+    "title": "Kigali City Intelligence Guide 2",
+    "description": "Educational city intelligence overview for Kigali, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Kigali",
+    "category": "City Intelligence",
+    "keywords": [
+      "kigali",
+      "city-intelligence",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "high",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Kigali City Intelligence knowledge guide"
+  },
+  {
+    "slug": "dakar-travel-safety-guide-2",
+    "title": "Dakar Travel Safety Guide 2",
+    "description": "Educational travel safety overview for Dakar, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Dakar",
+    "category": "Travel Safety",
+    "keywords": [
+      "dakar",
+      "travel-safety",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Dakar Travel Safety knowledge guide"
+  },
+  {
+    "slug": "abidjan-legal-awareness-guide-2",
+    "title": "Abidjan Legal Awareness Guide 2",
+    "description": "Educational legal awareness overview for Abidjan, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Abidjan",
+    "category": "Legal Awareness",
+    "keywords": [
+      "abidjan",
+      "legal-awareness",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Abidjan Legal Awareness knowledge guide"
+  },
+  {
+    "slug": "douala-opportunity-research-guide-2",
+    "title": "Douala Opportunity Research Guide 2",
+    "description": "Educational opportunity research overview for Douala, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Douala",
+    "category": "Opportunity Research",
+    "keywords": [
+      "douala",
+      "opportunity-research",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "standard",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Douala Opportunity Research knowledge guide"
+  },
+  {
+    "slug": "yaounde-community-guides-guide-2",
+    "title": "Yaounde Community Guides Guide 2",
+    "description": "Educational community guides overview for Yaounde, focused on African city opportunity research, public awareness, responsible travel and non-operational research.",
+    "region": "Africa",
+    "country": "Africa",
+    "city": "Yaounde",
+    "category": "Community Guides",
+    "keywords": [
+      "yaounde",
+      "community-guides",
+      "africa",
+      "knowledge",
+      "guide"
+    ],
+    "priority": "medium",
+    "image": "https://thekitchendxb.com/assets/images/knowledge/knowledge.jpg",
+    "alt": "Yaounde Community Guides knowledge guide"
+  }
+]
