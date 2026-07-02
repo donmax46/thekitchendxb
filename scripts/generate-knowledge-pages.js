@@ -315,10 +315,12 @@ function renderRelatedCards(item, itemBySlug) {
   return item.relatedSlugs
     .map((slug) => {
       const related = itemBySlug.get(slug);
-      return `<div class="knowledge-card">
+      return `<article class="knowledge-card">
+<a class="knowledge-card-link" href="${escapeAttr(related.slug)}.html" aria-label="Read ${escapeAttr(related.title)}">
 <h3>${escapeHtml(related.title)}</h3>
-<a href="${escapeAttr(related.slug)}.html">Read Answer →</a>
-</div>`;
+<span class="knowledge-card-action">Read guide &rarr;</span>
+</a>
+</article>`;
     })
     .join("\n");
 }
@@ -432,12 +434,17 @@ function categoryHubUrl(category, pageNumber = 1) {
 }
 
 function renderSeoCard(card, hrefPrefix = "knowledge-cards/") {
-  return `<div class="knowledge-card seo-knowledge-card">
-<p class="hero-tag">${escapeHtml(card.region)} - ${escapeHtml(card.category)}</p>
+  const image = cardImage(card);
+  const imageSrc = hrefPrefix === "knowledge-cards/" ? image.src : image.src.replace(/^\.\.\//, "../../");
+  return `<article class="knowledge-card seo-knowledge-card">
+<a class="knowledge-card-link" href="${escapeAttr(hrefPrefix)}${escapeAttr(card.slug)}.html" aria-label="Read ${escapeAttr(card.title)}">
+<img class="knowledge-card-image" src="${escapeAttr(imageSrc)}" alt="${escapeAttr(card.alt || card.title)}" loading="lazy" decoding="async" width="${image.width}" height="${image.height}">
+<p class="knowledge-card-meta">${escapeHtml(card.region)} / ${escapeHtml(card.category)} / ${escapeHtml(card.intent || "guide")}</p>
 <h3>${escapeHtml(card.title)}</h3>
 <p>${escapeHtml(card.description)}</p>
-<a href="${escapeAttr(hrefPrefix)}${escapeAttr(card.slug)}.html">Open Guide â†’</a>
-</div>`;
+<span class="knowledge-card-action">Read guide &rarr;</span>
+</a>
+</article>`;
 }
 
 function renderPagination({ currentPage, totalPages, urlForPage }) {
@@ -600,10 +607,12 @@ function renderHub(items, cards = []) {
 <div class="container">
 <h2 class="section-title">${escapeHtml(category)}</h2>
 <div class="knowledge-grid">
-${groups.get(category).map((item) => `<div class="knowledge-card">
+${groups.get(category).map((item) => `<article class="knowledge-card">
+<a class="knowledge-card-link" href="${escapeAttr(item.slug)}.html" aria-label="Read ${escapeAttr(item.title)}">
 <h3>${escapeHtml(item.title)}</h3>
-<a href="${escapeAttr(item.slug)}.html">Read Answer →</a>
-</div>`).join("\n")}
+<span class="knowledge-card-action">Read guide &rarr;</span>
+</a>
+</article>`).join("\n")}
 </div>
 </div>
 </section>`)
