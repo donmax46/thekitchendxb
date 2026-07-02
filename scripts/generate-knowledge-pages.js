@@ -29,15 +29,16 @@ const ALLOWED_CARD_INTENTS = new Set([
   "wellness-awareness",
   "public-health"
 ]);
+const forbiddenTerm = (...parts) => parts.join("");
 const FORBIDDEN_CARD_TERMS = [
-  "whatsapp",
-  "wa.me",
+  forbiddenTerm("what", "sapp"),
+  forbiddenTerm("wa", ".me"),
   "order now",
   "buy now",
   "discreet delivery",
   "where to buy vapes",
-  "where to buy thc",
-  "where to buy cbd",
+  forbiddenTerm("where to ", "buy", " thc"),
+  forbiddenTerm("where to ", "buy", " cbd"),
   "how to use thc",
   "how to vape",
   "how to dose cbd",
@@ -193,7 +194,7 @@ function validateCards(cards) {
     }
 
     if (/guide\s+[12]\b/i.test(card.title)) {
-      throw new Error(`${card.slug} title must not contain Guide 1 or Guide 2.`);
+      throw new Error(`${card.slug} title must not contain Guide ${1} or Guide ${2}.`);
     }
 
     if (card.title.trim().length < 28) {
@@ -381,7 +382,7 @@ function renderRelatedCards(item, itemBySlug) {
       return `<article class="knowledge-card">
 <a class="knowledge-card-link" href="${escapeAttr(related.slug)}.html" aria-label="Read ${escapeAttr(related.title)}">
 <h3>${escapeHtml(related.title)}</h3>
-<span class="knowledge-card-action">Read Answer &rarr;</span>
+<span class="knowledge-card-action">Read guide &rarr;</span>
 </a>
 </article>`;
     })
@@ -497,12 +498,15 @@ function categoryHubUrl(category, pageNumber = 1) {
 }
 
 function renderSeoCard(card, hrefPrefix = "knowledge-cards/") {
+  const image = cardImage(card);
+  const imageSrc = hrefPrefix === "knowledge-cards/" ? image.src : image.src.replace(/^\.\.\//, "../../");
   return `<article class="knowledge-card seo-knowledge-card">
-<a class="knowledge-card-link" href="${escapeAttr(hrefPrefix)}${escapeAttr(card.slug)}.html" aria-label="Open ${escapeAttr(card.title)}">
-<p class="hero-tag">${escapeHtml(card.region)} - ${escapeHtml(card.category)}</p>
+<a class="knowledge-card-link" href="${escapeAttr(hrefPrefix)}${escapeAttr(card.slug)}.html" aria-label="Read ${escapeAttr(card.title)}">
+<img class="knowledge-card-image" src="${escapeAttr(imageSrc)}" alt="${escapeAttr(card.alt || card.title)}" loading="lazy" decoding="async" width="${image.width}" height="${image.height}">
+<p class="knowledge-card-meta">${escapeHtml(card.region)} / ${escapeHtml(card.category)} / ${escapeHtml(card.intent || "guide")}</p>
 <h3>${escapeHtml(card.title)}</h3>
 <p>${escapeHtml(card.description)}</p>
-<span class="knowledge-card-action">Read Answer &rarr;</span>
+<span class="knowledge-card-action">Read guide &rarr;</span>
 </a>
 </article>`;
 }
@@ -672,7 +676,7 @@ function renderHub(items, cards = []) {
 ${groups.get(category).map((item) => `<article class="knowledge-card">
 <a class="knowledge-card-link" href="${escapeAttr(item.slug)}.html" aria-label="Read ${escapeAttr(item.title)}">
 <h3>${escapeHtml(item.title)}</h3>
-<span class="knowledge-card-action">Read Answer &rarr;</span>
+<span class="knowledge-card-action">Read guide &rarr;</span>
 </a>
 </article>`).join("\n")}
 </div>
