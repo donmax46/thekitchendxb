@@ -16,7 +16,39 @@ const FALLBACK_IMAGE_SRC = `../${FALLBACK_IMAGE_RELATIVE}`;
 const DEFAULT_OG_IMAGE = `${SITE_URL}/${FALLBACK_IMAGE_RELATIVE}`;
 const MIN_IMAGE_BYTES = 1024;
 const CARD_PAGE_SIZE = 500;
-const CARD_REGION_ORDER = ["UAE / GCC", "Europe", "USA", "Global Cities", "Africa"];
+const CARD_REGION_ORDER = ["UAE / GCC", "Europe", "USA", "Asia-Pacific", "Africa", "Global Cities"];
+const ALLOWED_CARD_INTENTS = new Set([
+  "how-to",
+  "where-to",
+  "why",
+  "dangers",
+  "precautions",
+  "what-to-know",
+  "legal-awareness",
+  "travel-safety",
+  "wellness-awareness",
+  "public-health"
+]);
+const FORBIDDEN_CARD_TERMS = [
+  "whatsapp",
+  "wa.me",
+  "order now",
+  "buy now",
+  "discreet delivery",
+  "where to buy vapes",
+  "where to buy thc",
+  "where to buy cbd",
+  "how to use thc",
+  "how to vape",
+  "how to dose cbd",
+  "how to travel with thc",
+  "how to travel with cbd",
+  "how to avoid detection",
+  "product menus",
+  "strains",
+  "prices",
+  "ordering language"
+];
 const CATEGORY_ORDER = [
   "Awareness",
   "UAE Drug Laws",
@@ -140,12 +172,14 @@ function validateCards(cards) {
     "country",
     "city",
     "category",
+    "intent",
     "keywords",
     "priority",
     "image",
     "alt"
   ];
   const slugs = new Set();
+  const titles = new Set();
 
   for (const card of cards) {
     for (const field of requiredFields) {
@@ -158,13 +192,42 @@ function validateCards(cards) {
       throw new Error(`Invalid card slug: ${card.slug}`);
     }
 
+    if (/guide\s+[12]\b/i.test(card.title)) {
+      throw new Error(`${card.slug} title must not contain Guide 1 or Guide 2.`);
+    }
+
+    if (card.title.trim().length < 28) {
+      throw new Error(`${card.slug} title must be at least 28 characters.`);
+    }
+
+    if (card.description.trim().length < 130) {
+      throw new Error(`${card.slug} description must be at least 130 characters.`);
+    }
+
     if (slugs.has(card.slug)) {
       throw new Error(`Duplicate card slug: ${card.slug}`);
     }
     slugs.add(card.slug);
 
+    const normalizedTitle = card.title.trim().toLowerCase();
+    if (titles.has(normalizedTitle)) {
+      throw new Error(`Duplicate card title: ${card.title}`);
+    }
+    titles.add(normalizedTitle);
+
+    if (!ALLOWED_CARD_INTENTS.has(card.intent)) {
+      throw new Error(`${card.slug} has invalid intent: ${card.intent}`);
+    }
+
     if (!Array.isArray(card.keywords)) {
       throw new Error(`${card.slug} keywords must be an array.`);
+    }
+
+    const searchable = `${card.title} ${card.description} ${card.keywords.join(" ")}`.toLowerCase();
+    for (const term of FORBIDDEN_CARD_TERMS) {
+      if (searchable.includes(term)) {
+        throw new Error(`${card.slug} contains forbidden term: ${term}`);
+      }
     }
   }
 }
@@ -184,7 +247,7 @@ function navHtml(assetPrefix = "../") {
 <a href="/uae-dubai/knowledge.html">Knowledge</a>
 <a href="${assetPrefix}contact.html">Contact</a>
 </nav>
-<div class="menu-toggle" id="menuToggle">☰</div>
+<div class="menu-toggle" id="menuToggle">&#9776;</div>
 </div>
 </header>`;
 }
@@ -194,7 +257,7 @@ function footerHtml() {
 <div class="container">
 <div class="footer-logo">THE KITCHEN</div>
 <p>Knowledge &bull; Cities &bull; Opportunities &bull; Community</p>
-<p class="copyright">© 2026 THE KITCHEN. All Rights Reserved.</p>
+<p class="copyright">&copy; 2026 THE KITCHEN. All Rights Reserved.</p>
 </div>
 </footer>`;
 }
@@ -317,7 +380,7 @@ function renderRelatedCards(item, itemBySlug) {
       const related = itemBySlug.get(slug);
       return `<div class="knowledge-card">
 <h3>${escapeHtml(related.title)}</h3>
-<a href="${escapeAttr(related.slug)}.html">Read Answer →</a>
+<a href="${escapeAttr(related.slug)}.html">Read Answer &rarr;</a>
 </div>`;
     })
     .join("\n");
@@ -436,7 +499,7 @@ function renderSeoCard(card, hrefPrefix = "knowledge-cards/") {
 <p class="hero-tag">${escapeHtml(card.region)} - ${escapeHtml(card.category)}</p>
 <h3>${escapeHtml(card.title)}</h3>
 <p>${escapeHtml(card.description)}</p>
-<a href="${escapeAttr(hrefPrefix)}${escapeAttr(card.slug)}.html">Open Guide â†’</a>
+<a href="${escapeAttr(hrefPrefix)}${escapeAttr(card.slug)}.html">Open Guide &rarr;</a>
 </div>`;
 }
 
@@ -465,7 +528,8 @@ function renderCardPage(card, relatedCards) {
   const jsonLd = {
     ...webPageSchema({ title, description, canonicalUrl, ogImage: image.url }),
     about: card.category,
-    keywords
+    keywords,
+    audience: card.intent
   };
 
   const related = relatedCards
@@ -491,6 +555,7 @@ function renderCardPage(card, relatedCards) {
 <li>Country: ${escapeHtml(card.country)}</li>
 <li>City: ${escapeHtml(card.city)}</li>
 <li>Category: ${escapeHtml(card.category)}</li>
+<li>Intent: ${escapeHtml(card.intent)}</li>
 <li>Keywords: ${escapeHtml(keywords)}</li>
 </ul>
 </div>
@@ -602,7 +667,7 @@ function renderHub(items, cards = []) {
 <div class="knowledge-grid">
 ${groups.get(category).map((item) => `<div class="knowledge-card">
 <h3>${escapeHtml(item.title)}</h3>
-<a href="${escapeAttr(item.slug)}.html">Read Answer →</a>
+<a href="${escapeAttr(item.slug)}.html">Read Answer &rarr;</a>
 </div>`).join("\n")}
 </div>
 </div>
@@ -639,6 +704,10 @@ ${renderCardSections(cards)}
 }
 
 function renderAllCardPages(cards) {
+  for (const generatedDir of [cardOutputDir, regionOutputDir, categoryOutputDir]) {
+    fs.rmSync(generatedDir, { recursive: true, force: true });
+  }
+
   fs.mkdirSync(cardOutputDir, { recursive: true });
   fs.mkdirSync(regionOutputDir, { recursive: true });
   fs.mkdirSync(categoryOutputDir, { recursive: true });
@@ -726,9 +795,13 @@ function updateSitemap(items, cards = []) {
   const matches = existing.matchAll(/<loc>([^<]+)<\/loc>/g);
   const seen = new Set();
   const urls = [];
+  const generatedUrlPattern = new RegExp(`^${SITE_URL.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}/uae-dubai/(?:knowledge-cards|knowledge-regions|knowledge-categories)/`);
 
   for (const match of matches) {
     const url = match[1].trim();
+    if (generatedUrlPattern.test(url)) {
+      continue;
+    }
     if (!seen.has(url)) {
       seen.add(url);
       urls.push(url);
