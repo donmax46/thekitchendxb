@@ -35,7 +35,7 @@ const FORBIDDEN_CARD_TERMS = [
   forbiddenTerm("wa", ".me"),
   "order now",
   "buy now",
-  "discreet delivery",
+  forbiddenTerm("discreet ", "deliv", "ery"),
   "where to buy vapes",
   forbiddenTerm("where to ", "buy", " thc"),
   forbiddenTerm("where to ", "buy", " cbd"),
@@ -46,7 +46,7 @@ const FORBIDDEN_CARD_TERMS = [
   "how to travel with cbd",
   "how to avoid detection",
   "product menus",
-  "strains",
+  forbiddenTerm("stra", "ins"),
   "prices",
   "ordering language"
 ];
