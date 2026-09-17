@@ -5,17 +5,19 @@ const navLinks = document.getElementById("navLinks");
 if (menuToggle && navLinks) {
   menuToggle.setAttribute("role", "button");
   menuToggle.setAttribute("tabindex", "0");
+  menuToggle.setAttribute("aria-expanded", "false");
 
-  menuToggle.addEventListener("click", () => {
+  const toggleNavigation = () => {
     const open = navLinks.classList.toggle("active");
     menuToggle.setAttribute("aria-expanded", String(open));
     menuToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
-  });
+  };
 
-  menuToggle.addEventListener("keydown", (event) => {
+  menuToggle.addEventListener("click", toggleNavigation);
+  menuToggle.addEventListener("keydown", event => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
-      menuToggle.click();
+      toggleNavigation();
     }
   });
 
@@ -56,18 +58,42 @@ window.addEventListener("load", () => {
 const yearElement = document.getElementById("year");
 if (yearElement) yearElement.textContent = new Date().getFullYear();
 
-// Keep conversion preparation identifiable without firing unconfigured conversions.
-document.querySelectorAll('a[href*="t.me/"]').forEach(link => {
-  if (link.href.includes("mawjud126")) link.href = "https://t.me/lastchriseae";
-  link.dataset.conversion = link.dataset.conversion || "telegram_contact";
-  link.addEventListener("click", () => {
-    if (typeof window.gtag === "function") window.gtag("event", "telegram_click", { conversion_target: link.dataset.conversion });
+// Google Ads preparation: identify valuable actions without inventing conversion IDs.
+function prepareConversionTargets() {
+  document.querySelectorAll('a[href*="t.me/"]').forEach(link => {
+    if (link.href.includes("mawjud126")) link.href = "https://t.me/lastchriseae";
+    link.dataset.conversion = link.dataset.conversion || "telegram_contact";
+    if (link.target === "_blank") link.rel = "noopener noreferrer";
   });
-});
 
-document.querySelectorAll('a[href*="knowledge.html"]').forEach(link => {
-  link.dataset.conversion = link.dataset.conversion || "knowledge_library";
-});
+  document.querySelectorAll('a[href*="knowledge.html"]').forEach(link => {
+    link.dataset.conversion = link.dataset.conversion || "knowledge_library";
+  });
+
+  document.querySelectorAll('a[href="contact.html"], a[href="../contact.html"], a[href="/contact.html"]').forEach(link => {
+    link.dataset.conversion = link.dataset.conversion || "contact_visit";
+  });
+
+  document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+    link.dataset.conversion = link.dataset.conversion || "email_contact";
+  });
+
+  document.querySelectorAll("a[data-conversion]").forEach(link => {
+    if (link.dataset.conversionTracked === "true") return;
+    link.dataset.conversionTracked = "true";
+    link.addEventListener("click", () => {
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "conversion_target_click", {
+          conversion_target: link.dataset.conversion,
+          link_url: link.href
+        });
+      }
+    });
+  });
+}
+
+prepareConversionTargets();
+document.addEventListener("DOMContentLoaded", prepareConversionTargets);
 
 function injectKnowledgeButton() {
   if (document.querySelector(".knowledge-float")) return;
@@ -78,5 +104,6 @@ function injectKnowledgeButton() {
   knowledgeButton.dataset.conversion = "knowledge_library";
   knowledgeButton.innerHTML = "<span>Knowledge</span><small>UAE Guides</small>";
   document.body.appendChild(knowledgeButton);
+  prepareConversionTargets();
 }
 document.addEventListener("DOMContentLoaded", injectKnowledgeButton);
