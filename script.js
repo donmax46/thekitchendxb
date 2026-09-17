@@ -107,3 +107,38 @@ function injectKnowledgeButton() {
   prepareConversionTargets();
 }
 document.addEventListener("DOMContentLoaded", injectKnowledgeButton);
+
+function injectTelegramButton() {
+  const page = window.location.pathname.toLowerCase();
+  const isTargetPage = page.endsWith("/collections.html") || page.endsWith("/selections.html");
+  if (!isTargetPage || document.querySelector(".telegram-float")) return;
+
+  const telegramButton = document.createElement("a");
+  telegramButton.href = "https://t.me/lastchriseae";
+  telegramButton.className = "telegram-float";
+  telegramButton.target = "_blank";
+  telegramButton.rel = "noopener noreferrer";
+  telegramButton.setAttribute("aria-label", "Join THE KITCHEN on Telegram");
+  telegramButton.dataset.conversion = "telegram_contact";
+  telegramButton.textContent = "Join Telegram";
+  Object.assign(telegramButton.style, {
+    position: "fixed",
+    right: "20px",
+    bottom: "20px",
+    zIndex: "1100",
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    minHeight: "48px",
+    padding: "0 18px",
+    borderRadius: "999px",
+    background: "#229ED9",
+    color: "#fff",
+    fontWeight: "700",
+    boxShadow: "0 8px 24px rgba(0,0,0,.35)",
+    textDecoration: "none"
+  });
+  document.body.appendChild(telegramButton);
+  prepareConversionTargets();
+}
+document.addEventListener("DOMContentLoaded", injectTelegramButton);
