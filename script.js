@@ -3,11 +3,22 @@ const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 
 if (menuToggle && navLinks) {
+  menuToggle.setAttribute("role", "button");
+  menuToggle.setAttribute("tabindex", "0");
+
   menuToggle.addEventListener("click", () => {
     const open = navLinks.classList.toggle("active");
     menuToggle.setAttribute("aria-expanded", String(open));
     menuToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
   });
+
+  menuToggle.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      menuToggle.click();
+    }
+  });
+
   navLinks.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
     navLinks.classList.remove("active");
     menuToggle.setAttribute("aria-expanded", "false");
@@ -53,6 +64,7 @@ document.querySelectorAll('a[href*="t.me/"]').forEach(link => {
     if (typeof window.gtag === "function") window.gtag("event", "telegram_click", { conversion_target: link.dataset.conversion });
   });
 });
+
 document.querySelectorAll('a[href*="knowledge.html"]').forEach(link => {
   link.dataset.conversion = link.dataset.conversion || "knowledge_library";
 });
